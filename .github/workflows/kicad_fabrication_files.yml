@@ -1,0 +1,179 @@
+name: KiCad CI/CD for ElectronicCats Projects
+
+on:
+  release:
+    types: [published]
+  push: 
+  pull_request:
+
+jobs:
+  FabricationSch:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Cache KiBot dependencies and 3D models
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cache/kibot
+          ~/.local/share/kibot
+        key: ${{ runner.os }}-kibot-${{ hashFiles('hardware/**/*.kibot.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-kibot-
+
+    - name: Find KiCad files
+      id: find_files
+      run: |
+        # Verificar que el directorio hardware existe
+        if [ ! -d "hardware" ]; then
+          echo "❌ Error: hardware directory not found"
+          ls -la
+          exit 1
+        fi
+        
+        # Primero encontrar el archivo PCB
+        PCB_FILE=$(find hardware -name "*.kicad_pcb" -type f | head -n 1)
+        
+        if [ -z "$PCB_FILE" ]; then
+          echo "❌ Error: No .kicad_pcb file found in hardware/"
+          echo "Contents of hardware directory:"
+          ls -la hardware/ || true
+          echo "Searching in entire repository:"
+          find . -name "*.kicad_pcb" -type f || echo "No .kicad_pcb files found"
+          exit 1
+        fi
+        
+        # Extraer el nombre base del PCB (sin extensión y sin ruta)
+        PCB_BASENAME=$(basename "$PCB_FILE" .kicad_pcb)
+        echo "🔍 Looking for schematic matching PCB: $PCB_BASENAME"
+        
+        # Buscar el esquemático que coincida con el nombre del PCB
+        MATCHING_SCHEMA=$(find hardware -name "${PCB_BASENAME}.kicad_sch" -type f | head -n 1)
+        
+        # Si no encuentra uno que coincida, usar el primero disponible como fallback
+        if [ -z "$MATCHING_SCHEMA" ]; then
+          echo "⚠️ No matching schematic found for $PCB_BASENAME, using first available"
+          SCHEMA_FILE=$(find hardware -name "*.kicad_sch" -type f | head -n 1)
+        else
+          SCHEMA_FILE="$MATCHING_SCHEMA"
+          echo "✅ Found matching schematic: $SCHEMA_FILE"
+        fi
+        
+        if [ -z "$SCHEMA_FILE" ]; then
+          echo "❌ Error: No .kicad_sch file found in hardware/"
+          exit 1
+        fi
+        
+        echo "schema_file=$SCHEMA_FILE" >> $GITHUB_OUTPUT
+        echo "pcb_file=$PCB_FILE" >> $GITHUB_OUTPUT
+        echo "✅ Found KiCad files: $SCHEMA_FILE and $PCB_FILE"
+
+    - uses: INTI-CMNB/KiBot@v2_dk9
+      with:
+        # Required - kibot config file
+        config: hardware/electroniccats_sch.kibot.yaml
+        schema: ${{ steps.find_files.outputs.schema_file }}
+        dir: hardware
+
+    - name: Verify generated files exist
+      shell: bash
+      run: |
+        echo "Checking for generated ZIP files in hardware directory..."
+        cd hardware
+        for zip in generalFiles.zip iBom.zip Schematic.zip Bom_csv.zip; do
+          if [ -f "$zip" ]; then
+            echo "✓ Found: $zip"
+            ls -lh "$zip"
+          else
+            echo "✗ Warning: $zip not found in hardware/"
+          fi
+        done
+
+    - name: upload assets
+      if: github.event_name == 'release'
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+         hardware/generalFiles.zip
+         hardware/iBom.zip
+         hardware/Schematic.zip
+         hardware/Bom_csv.zip
+
+
+  FabricationPCB:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Cache KiBot dependencies and 3D models
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cache/kibot
+          ~/.local/share/kibot
+        key: ${{ runner.os }}-kibot-${{ hashFiles('hardware/**/*.kibot.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-kibot-
+
+    - name: Find KiCad files
+      id: find_files
+      run: |
+        # Verificar que el directorio hardware existe
+        if [ ! -d "hardware" ]; then
+          echo "❌ Error: hardware directory not found"
+          ls -la
+          exit 1
+        fi
+        
+        # Primero encontrar el archivo PCB
+        PCB_FILE=$(find hardware -name "*.kicad_pcb" -type f | head -n 1)
+        
+        if [ -z "$PCB_FILE" ]; then
+          echo "❌ Error: No .kicad_pcb file found in hardware/"
+          echo "Contents of hardware directory:"
+          ls -la hardware/ || true
+          echo "Searching in entire repository:"
+          find . -name "*.kicad_pcb" -type f || echo "No .kicad_pcb files found"
+          exit 1
+        fi
+        
+        # Extraer el nombre base del PCB (sin extensión y sin ruta)
+        PCB_BASENAME=$(basename "$PCB_FILE" .kicad_pcb)
+        echo "🔍 Looking for schematic matching PCB: $PCB_BASENAME"
+        
+        # Buscar el esquemático que coincida con el nombre del PCB
+        MATCHING_SCHEMA=$(find hardware -name "${PCB_BASENAME}.kicad_sch" -type f | head -n 1)
+        
+        # Si no encuentra uno que coincida, usar el primero disponible como fallback
+        if [ -z "$MATCHING_SCHEMA" ]; then
+          echo "⚠️ No matching schematic found for $PCB_BASENAME, using first available"
+          SCHEMA_FILE=$(find hardware -name "*.kicad_sch" -type f | head -n 1)
+        else
+          SCHEMA_FILE="$MATCHING_SCHEMA"
+          echo "✅ Found matching schematic: $SCHEMA_FILE"
+        fi
+        
+        if [ -z "$SCHEMA_FILE" ]; then
+          echo "❌ Error: No .kicad_sch file found in hardware/"
+          exit 1
+        fi
+        
+        echo "schema_file=$SCHEMA_FILE" >> $GITHUB_OUTPUT
+        echo "board_file=$PCB_FILE" >> $GITHUB_OUTPUT
+        echo "✅ Found KiCad files: $SCHEMA_FILE and $PCB_FILE"
+
+    - uses: INTI-CMNB/KiBot@v2_dk9
+      with:
+        # Required - kibot config file
+        config: hardware/electroniccats_pcb.kibot.yaml
+        board: ${{ steps.find_files.outputs.board_file }}
+        dir: hardware
+
+    - name: upload assets
+      if: github.event_name == 'release'
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+          hardware/JLCPCB.zip
+          hardware/PCBWay.zip
