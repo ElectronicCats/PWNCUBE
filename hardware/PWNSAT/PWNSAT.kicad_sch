@@ -1,0 +1,264 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c4013328-b893-46ab-bd04-6706a3894292")
+	(paper "A3")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1033700c-0927-46d3-b42a-93b8bdc4306a")
+	)
+	(wire
+		(pts
+			(xy 119.38 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "74204187-87ab-4add-9e4d-e7551ab1fc2f")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "945e260a-dcd2-4a49-929d-cfc2b3dae673")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 166.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c0224531-376f-4724-977b-283434045843")
+	)
+	(sheet
+		(at 91.44 101.6)
+		(size 27.94 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17133ccf-c344-4a8e-82a2-97b891360a10")
+		(property "Sheetname" "power_supply"
+			(at 91.44 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 91.44 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_DDR" output
+			(at 119.38 106.68 0)
+			(uuid "f0c6969a-9163-42d5-94ab-aba9cd5f079f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_0.9v" output
+			(at 119.38 109.22 0)
+			(uuid "06e31c62-d648-45b4-b45e-1430f16d6248")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_1.8v" output
+			(at 119.38 111.76 0)
+			(uuid "bd8f8854-51e7-46f3-b7ac-bbdee8f6c805")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "v_3v3" output
+			(at 119.38 114.3 0)
+			(uuid "1fd922c7-2e31-4ac1-9cef-f96d5ba3a243")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PWNSAT"
+				(path "/c4013328-b893-46ab-bd04-6706a3894292"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 101.6)
+		(size 25.4 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7404ef4b-57d5-4ccc-9621-1a7c22ec4283")
+		(property "Sheetname" "Sensor"
+			(at 238.76 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 238.76 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PWNSAT"
+				(path "/c4013328-b893-46ab-bd04-6706a3894292"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 101.6)
+		(size 50.8 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc33247d-89c6-4062-b5d8-5f7b51f6b105")
+		(property "Sheetname" "core"
+			(at 166.37 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 166.37 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC_DDR" input
+			(at 166.37 106.68 180)
+			(uuid "2456a5ee-7017-43aa-82bb-a91802fcd0f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_0.9v" input
+			(at 166.37 109.22 180)
+			(uuid "9cacd7ab-3703-486a-aa15-7f35048adcb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_1.8v" input
+			(at 166.37 111.76 180)
+			(uuid "bc10ba50-889f-478c-ba24-955a111b93eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "v_3v3" input
+			(at 166.37 114.3 180)
+			(uuid "6f641054-5dd3-4538-993b-668462707e87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PWNSAT"
+				(path "/c4013328-b893-46ab-bd04-6706a3894292"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
