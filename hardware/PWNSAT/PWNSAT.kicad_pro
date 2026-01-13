@@ -400,13 +400,13 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MANUFACTURER_PART_NUMBER",
           "name": "MANUFACTURER_PART_NUMBER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -502,7 +502,7 @@
           "group_by": false,
           "label": "#LCSC",
           "name": "#LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
