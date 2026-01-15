@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PWNSAT.kicad_prl",
+    "filename": "Sensor_Board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

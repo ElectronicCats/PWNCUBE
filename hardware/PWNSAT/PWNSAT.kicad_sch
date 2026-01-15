@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "c4013328-b893-46ab-bd04-6706a3894292")
 	(paper "A3")
+	(title_block
+		(title "Cube_Sat")
+		(date "2026-01-15")
+		(rev "1.0")
+		(company "Electronic Cats")
+		(comment 1 "Edgar Capuchino")
+	)
 	(lib_symbols)
 	(wire
 		(pts
@@ -46,6 +53,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "1ca3820f-03aa-4ac8-8bcd-69a4a8320ee2")
+	)
+	(wire
+		(pts
+			(xy 228.6 152.4) (xy 228.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1d7fb70d-2395-43c6-a67c-7e1fc5d6a3ca")
 	)
 	(wire
 		(pts
@@ -113,6 +131,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 168.91) (xy 166.37 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7452b8db-f5fd-4c7a-baec-a132e313dd38")
+	)
+	(wire
+		(pts
 			(xy 217.17 124.46) (xy 238.76 124.46)
 		)
 		(stroke
@@ -121,6 +149,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "7f36b967-9e49-4f53-aba5-8f49058f9ec8")
+	)
+	(wire
+		(pts
+			(xy 99.06 175.26) (xy 228.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8795ea89-8d75-42c6-a49b-c8d10edf5709")
 	)
 	(wire
 		(pts
@@ -165,6 +204,17 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 158.75) (xy 166.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "bab7a824-3019-49a7-9fac-abec100313d0")
+	)
+	(wire
+		(pts
 			(xy 144.78 114.3) (xy 166.37 114.3)
 		)
 		(stroke
@@ -187,6 +237,17 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 152.4) (xy 228.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d47887a8-bfed-4cda-acdd-467779f87eb3")
+	)
+	(wire
+		(pts
 			(xy 217.17 109.22) (xy 238.76 109.22)
 		)
 		(stroke
@@ -195,6 +256,27 @@
 			(color 0 0 255 1)
 		)
 		(uuid "d590ef92-a4ac-4568-8676-3fd98d2ed771")
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 166.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d343bf-d4e3-429c-86a3-3ecf4606cc4d")
+	)
+	(wire
+		(pts
+			(xy 99.06 153.67) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e07123e7-6196-431e-a250-d4ddc5660929")
 	)
 	(wire
 		(pts
@@ -228,6 +310,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 166.37) (xy 166.37 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f563bfdb-f490-4a27-959e-e277312efddb")
+	)
+	(wire
+		(pts
 			(xy 217.17 119.38) (xy 238.76 119.38)
 		)
 		(stroke
@@ -247,9 +339,19 @@
 		)
 		(uuid "fe3567f1-9321-45ea-915e-967768559bba")
 	)
+	(wire
+		(pts
+			(xy 99.06 163.83) (xy 166.37 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feeff342-66b0-4671-a638-af16e84da9c1")
+	)
 	(sheet
 		(at 116.84 101.6)
-		(size 27.94 50.8)
+		(size 27.94 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -273,7 +375,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 116.84 152.9846 0)
+			(at 116.84 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,6 +423,16 @@
 				(justify right)
 			)
 		)
+		(pin "VCC" input
+			(at 116.84 153.67 180)
+			(uuid "5fdf352f-2120-4bdc-97c7-42fb8b29f07c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292"
@@ -331,7 +443,7 @@
 	)
 	(sheet
 		(at 238.76 101.6)
-		(size 25.4 49.276)
+		(size 25.4 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -355,7 +467,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
-			(at 238.76 151.4606 0)
+			(at 238.76 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,6 +665,16 @@
 				(justify left)
 			)
 		)
+		(pin "+3.3V" input
+			(at 238.76 152.4 180)
+			(uuid "cb35e0fd-f24f-489f-a771-972dc429222d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292"
@@ -562,8 +684,120 @@
 		)
 	)
 	(sheet
+		(at 78.74 146.05)
+		(size 20.32 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f40f9b3b-e727-4858-99c9-9b2e636da4b6")
+		(property "Sheetname" "USB"
+			(at 78.74 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 78.74 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3v" output
+			(at 99.06 175.26 0)
+			(uuid "be56b079-8a35-433a-a2df-103c9bc09afa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Battery" output
+			(at 99.06 158.75 0)
+			(uuid "699866eb-9cac-4e0c-956b-069ed6b23958")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 99.06 168.91 0)
+			(uuid "afdb1e22-07e4-4a02-b412-15a9a1781275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 99.06 166.37 0)
+			(uuid "a34c15ae-33e5-45b9-b396-e64cf62c2cd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Enable" input
+			(at 99.06 163.83 0)
+			(uuid "e60c104b-9301-4ebe-a7c5-700c8ff4fb67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DET" output
+			(at 99.06 161.29 0)
+			(uuid "c71fc232-6569-4c32-8e7f-43f4ab672e82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" output
+			(at 99.06 153.67 0)
+			(uuid "4d6bd52d-b36a-4abf-a1b5-7b2f20c98ec6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PWNSAT"
+				(path "/c4013328-b893-46ab-bd04-6706a3894292"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 166.37 101.6)
-		(size 50.8 68.58)
+		(size 50.8 69.85)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -587,7 +821,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 166.37 170.7646 0)
+			(at 166.37 172.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,6 +1057,56 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 166.37 168.91 180)
+			(uuid "531da211-58ce-4880-9d85-bfc00e37c4c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 166.37 166.37 180)
+			(uuid "5dd97914-80e4-4e4d-9a62-926100387d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DET" input
+			(at 166.37 161.29 180)
+			(uuid "d3e76286-89aa-41b3-a732-0d71730a4273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Battery" input
+			(at 166.37 158.75 180)
+			(uuid "d940c1b4-a42c-4a0b-89ee-dab5c802c03c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable" output
+			(at 166.37 163.83 180)
+			(uuid "75e7b90a-30af-4983-b85b-1b42041b0c7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -1,0 +1,287 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "671dafcd-6579-4545-95ba-aa32d81f1541")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 16.51 29.21)
+		(size 40.64 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "082363ca-5881-4851-9449-c4a5f2b44a24")
+		(property "Sheetname" "Inputs_Connectors"
+			(at 16.51 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs_Connectors.kicad_sch"
+			(at 18.034 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 33.02)
+		(size 76.2 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9364cb8-a9bf-45cb-96b8-f5c6300f110d")
+		(property "Sheetname" "Sensors"
+			(at 129.54 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 129.54 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AP_ADO" output
+			(at 129.54 38.1 180)
+			(uuid "afcc1416-240a-4bfb-be36-b155655bcf51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO2" input
+			(at 129.54 43.18 180)
+			(uuid "1736c153-d2ed-4800-a929-8a17dc3e1171")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSYNC" output
+			(at 129.54 48.26 180)
+			(uuid "257b17dc-fe9b-429a-a4d8-dd648b5d6652")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1" output
+			(at 129.54 50.8 180)
+			(uuid "b1772ff1-2834-4221-910f-a835b0491ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" output
+			(at 129.54 53.34 180)
+			(uuid "5339e314-1947-42d3-84b6-ad4812b8dee9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_ANT_SW" input
+			(at 129.54 55.88 180)
+			(uuid "dd493a68-508f-4bff-8a44-230a28b1f049")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_BUSY" input
+			(at 129.54 58.42 180)
+			(uuid "832062b8-d9c3-4f68-9414-e2a6d6bca670")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_DIO1" input
+			(at 129.54 60.96 180)
+			(uuid "5af98134-33b0-46df-81c7-cb05c24f0325")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_DIO2" input
+			(at 129.54 63.5 180)
+			(uuid "1d592bb1-eca4-4dda-9d69-0a75a7643900")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_DIO3" input
+			(at 129.54 66.04 180)
+			(uuid "0d1967e4-aef1-4a85-87b2-ccf078b42753")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_MISO" input
+			(at 129.54 68.58 180)
+			(uuid "ab59a98c-c850-4516-8077-2ba5f5605dec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_MOSI" input
+			(at 129.54 71.12 180)
+			(uuid "154c58d4-b657-4dad-8827-6c4711acc392")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_NSS" input
+			(at 129.54 73.66 180)
+			(uuid "7c083e1e-570f-4bb0-98fd-67bd04ba9dae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_RST" input
+			(at 129.54 76.2 180)
+			(uuid "b104b985-afda-4d7f-8133-1e2bd15f12b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0_SCK" input
+			(at 129.54 78.74 180)
+			(uuid "354d8e14-92ab-4340-8297-3ae996222949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_BME280" output
+			(at 129.54 81.28 180)
+			(uuid "e4daf57a-0a62-4152-b4e3-c80e718631c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_ICM" output
+			(at 129.54 83.82 180)
+			(uuid "d586f655-7031-4f09-9c51-a7f184e2d9ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_BME280" bidirectional
+			(at 129.54 45.72 180)
+			(uuid "fa12ef7a-d802-44a2-a5dc-1cd14b29f8ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_ICM" bidirectional
+			(at 129.54 40.64 180)
+			(uuid "47441fae-eda6-466b-b55f-2be00da84751")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
