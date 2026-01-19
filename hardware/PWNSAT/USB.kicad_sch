@@ -5540,12 +5540,6 @@
 		(uuid "182df59f-548e-4ab6-9224-c0e022241c95")
 	)
 	(junction
-		(at 166.37 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c425f48-c105-433d-a57c-92d722ae85a0")
-	)
-	(junction
 		(at 129.54 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5556,6 +5550,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f13fda1-240d-4818-a15f-3763b140ab21")
+	)
+	(junction
+		(at 166.37 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e161e2-3f9c-441e-9a50-da9f9364c0b2")
 	)
 	(junction
 		(at 167.64 116.84)
@@ -6375,16 +6375,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 44.45) (xy 166.37 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724e9c62-1eca-4374-9ba9-80f74fa277ba")
-	)
-	(wire
-		(pts
 			(xy 50.8 43.18) (xy 50.8 43.815)
 		)
 		(stroke
@@ -6832,6 +6822,16 @@
 			(type default)
 		)
 		(uuid "92a8357f-afa9-4ae2-a6e8-fcfe94b3ba1a")
+	)
+	(wire
+		(pts
+			(xy 166.37 44.45) (xy 166.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9307b5e5-05c5-4632-a6e7-a83c94440c06")
 	)
 	(polyline
 		(pts
@@ -7859,7 +7859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01e600df-441b-4f9f-a03d-0254d3a4c5ce")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR096"
 			(at 76.2 128.27 0)
 			(effects
 				(font
@@ -7908,7 +7908,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR086")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -7923,7 +7923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03434725-2ce7-41e8-9692-0736fb75150c")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR069"
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -7972,7 +7972,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR071")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7987,7 +7987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03ee9e1c-85bd-480e-8192-c6d320435cb4")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 235.077 49.022 0)
 			(effects
 				(font
@@ -8036,7 +8036,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8052,7 +8052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05e0beed-0376-4269-bdc9-c5b4148a87fd")
-		(property "Reference" "R1"
+		(property "Reference" "R37"
 			(at 170.18 121.9199 0)
 			(effects
 				(font
@@ -8124,6 +8124,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82f0160c-34f1-42fb-8d50-cd1c3b58130b")
 		)
@@ -8133,7 +8151,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R1")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -8148,7 +8166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f2b943b-fd7c-4c89-8085-63dcaf8b47c6")
-		(property "Reference" "D16"
+		(property "Reference" "D3"
 			(at 139.7 64.77 0)
 			(effects
 				(font
@@ -8380,6 +8398,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75e59bb8-26a4-4398-a372-3440e102f2b9")
 		)
@@ -8389,7 +8425,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "D16")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8404,7 +8440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10720076-a9a5-4d10-aab5-ede26f54fc36")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 252.73 107.95 0)
 			(effects
 				(font
@@ -8555,10 +8591,28 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 257.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 257.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "H4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8573,7 +8627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "129da2bc-0791-4ccb-9d98-c7bfbe752641")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR085"
 			(at 207.01 81.28 0)
 			(effects
 				(font
@@ -8624,7 +8678,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0117")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8639,7 +8693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "169797af-3002-4490-a910-e44afd5db880")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 252.73 120.65 0)
 			(effects
 				(font
@@ -8790,10 +8844,28 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 257.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -8809,7 +8881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16d3547a-680d-40e4-b3b6-273b35f0f2d7")
-		(property "Reference" "L1"
+		(property "Reference" "L5"
 			(at 147.32 99.06 90)
 			(effects
 				(font
@@ -8825,7 +8897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:LQH5BPN"
+		(property "Footprint" "PWNCube:LQH5BPN"
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -8879,6 +8951,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 147.32 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 147.32 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25f5386e-5379-47a5-967e-80da081a8d56")
 		)
@@ -8888,7 +8978,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "L1")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -8903,7 +8993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bac7a07-287e-4314-aad8-945a0c332943")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 46.99 148.336 0)
 			(effects
 				(font
@@ -8919,7 +9009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SO-16_3.9x9.9mm_P1.27mm"
 			(at 46.99 165.1 0)
 			(effects
 				(font
@@ -9117,6 +9207,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 46.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 46.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "bc249a71-029e-42b3-ad55-b187a0febd36")
 		)
@@ -9168,7 +9276,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "U1")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -9183,7 +9291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cf0ff71-2282-4e1d-aa12-6923cad0b90c")
-		(property "Reference" "C11"
+		(property "Reference" "C49"
 			(at 191.008 64.77 0)
 			(effects
 				(font
@@ -9399,6 +9507,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df26e192-cc7f-4e60-99af-86336c9866d4")
 		)
@@ -9408,7 +9534,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C11")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -9424,7 +9550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee6169e-67b6-481e-85cf-406158086cf7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR091"
 			(at 34.29 106.68 0)
 			(effects
 				(font
@@ -9474,7 +9600,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR09")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -9489,7 +9615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21314033-d990-476a-bc09-902d18a14f12")
-		(property "Reference" "R14"
+		(property "Reference" "R26"
 			(at 41.91 39.624 90)
 			(effects
 				(font
@@ -9777,6 +9903,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 45.72 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 45.72 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "860bd721-a9b6-4922-ad8a-40f8a6313de3")
 		)
@@ -9786,7 +9930,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R14")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9802,7 +9946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238de066-9a93-4864-8123-3e3d38733fc7")
-		(property "Reference" "J10"
+		(property "Reference" "J3"
 			(at 213.36 31.7499 0)
 			(effects
 				(font
@@ -9820,7 +9964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:BatteryHolder_Keystone_1042_1x18650"
+		(property "Footprint" "PWNCube:BatteryHolder_Keystone_1042_1x18650"
 			(at 210.82 31.75 0)
 			(effects
 				(font
@@ -10027,6 +10171,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8bf6e9f2-69db-481b-82e2-3f67aaa94f15")
 		)
@@ -10036,7 +10198,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10052,7 +10214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2557ef13-15e9-4c7e-94a4-dde7d3acc635")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0100"
 			(at 34.29 132.08 0)
 			(effects
 				(font
@@ -10101,7 +10263,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR011")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -10116,7 +10278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "261ee139-537c-4d53-b944-9bc09da6d7c0")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 255.27 56.642 0)
 			(effects
 				(font
@@ -10347,6 +10509,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d718571-ad3d-41cb-9c74-3f61a449cdc2")
 		)
@@ -10356,7 +10536,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -10372,7 +10552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "276d7287-1ef8-42af-880d-8c38d1c19485")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0110"
 			(at 143.51 176.53 0)
 			(effects
 				(font
@@ -10422,7 +10602,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR078")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -10438,7 +10618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27b11b90-01f4-4008-b049-5d7767615329")
-		(property "Reference" "R45"
+		(property "Reference" "R34"
 			(at 209.55 68.5799 0)
 			(effects
 				(font
@@ -10510,6 +10690,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 207.01 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bf0dd37a-5ab2-4ff8-8396-7f543cc5df95")
 		)
@@ -10519,7 +10717,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R45")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -10534,7 +10732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28e9eb76-0229-4533-a95e-4f817eb90446")
-		(property "Reference" "R19"
+		(property "Reference" "R30"
 			(at 81.788 57.15 90)
 			(effects
 				(font
@@ -10748,6 +10946,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 83.82 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 83.82 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e772d282-c7c6-45ed-a0a3-21d9bcaf610d")
 		)
@@ -10757,7 +10973,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R19")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -10773,7 +10989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "309c6a32-0f40-4033-8eb1-567c16e3f0a3")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 170.18 109.2199 0)
 			(effects
 				(font
@@ -10845,6 +11061,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0941eecd-b1eb-48b6-b43f-6105fd7d8190")
 		)
@@ -10854,7 +11088,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10870,7 +11104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3604c1e3-17ca-4a85-8f2f-04dd7744780d")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 32.1467 101.6 0)
 			(effects
 				(font
@@ -10888,7 +11122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:IC_FSUSB42UMX"
+		(property "Footprint" "PWNCube:IC_FSUSB42UMX"
 			(at 34.29 92.71 0)
 			(effects
 				(font
@@ -10916,6 +11150,24 @@
 			)
 		)
 		(property "LCSC#" "C42370490"
+			(at 34.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 34.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
 			(at 34.29 114.3 0)
 			(effects
 				(font
@@ -10957,7 +11209,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -10972,7 +11224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37d7938a-af3e-43d2-b255-1b0253a8b8c2")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR076"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -11021,7 +11273,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0162")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -11037,7 +11289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3866f580-bd51-4316-ac34-220dd212aa24")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0111"
 			(at 74.93 177.8 0)
 			(effects
 				(font
@@ -11087,7 +11339,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR059")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -11335,6 +11587,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 245.745 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 245.745 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd5e8ff0-aa1c-44af-97d7-a6f356c6144f")
 		)
@@ -11363,7 +11633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca930b0-d076-45cb-aa3a-b54ec5d4ee7d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0102"
 			(at 74.93 144.78 0)
 			(effects
 				(font
@@ -11413,7 +11683,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR017")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -11428,7 +11698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ebeed2c-c974-437b-907f-90185c4fdf6a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0116"
 			(at 100.33 199.39 0)
 			(effects
 				(font
@@ -11477,7 +11747,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR019")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -11492,7 +11762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4085cb58-f74a-4627-b937-433fad138e6e")
-		(property "Reference" "C2"
+		(property "Reference" "C56"
 			(at 26.67 173.99 0)
 			(effects
 				(font
@@ -11708,6 +11978,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 24.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e9ce82d-a0e0-42ee-8cb2-8ca6c724fd5f")
 		)
@@ -11717,7 +12005,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C2")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -11733,7 +12021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40dad4c2-259c-47cb-943c-c33820193e83")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR094"
 			(at 127 125.73 0)
 			(effects
 				(font
@@ -11783,7 +12071,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR028")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -11798,7 +12086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45d7a4c4-1430-48a6-a5b7-cbda1ef42270")
-		(property "Reference" "R15"
+		(property "Reference" "R27"
 			(at 41.91 42.164 90)
 			(effects
 				(font
@@ -12086,6 +12374,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 45.72 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 45.72 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4edc5eb5-6d11-4785-bf57-45aab12fea59")
 		)
@@ -12095,7 +12401,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R15")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -12111,7 +12417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46f77301-389a-4dcb-ae92-91a09df1e77f")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 168.5133 50.8 0)
 			(effects
 				(font
@@ -12183,6 +12489,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c3c8337a-cf28-43e6-be0d-a219f0a44ec9")
 		)
@@ -12213,7 +12537,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12228,7 +12552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48c7d6a9-3810-4b77-8e0a-f20a5d3316f6")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR074"
 			(at 151.13 53.34 0)
 			(effects
 				(font
@@ -12279,7 +12603,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0161")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -12294,7 +12618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aae586b-9289-4e14-a27a-477070ad3c28")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR079"
 			(at 187.96 59.69 0)
 			(effects
 				(font
@@ -12343,7 +12667,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0171")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -12358,7 +12682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b36bafd-d1c4-4514-8201-0a81a01cbdc4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR070"
 			(at 166.37 43.18 0)
 			(effects
 				(font
@@ -12407,7 +12731,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR030")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -12422,7 +12746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "546836b8-d8ff-48a7-b07f-2e1086140faa")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR071"
 			(at 248.285 45.72 0)
 			(effects
 				(font
@@ -12471,7 +12795,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR045")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d3d52a-f0e4-471d-8d9e-ea03a776683b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR095"
 			(at 181.61 125.73 0)
 			(effects
 				(font
@@ -12537,7 +12861,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR061")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -12553,7 +12877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56132206-59e1-433e-a55b-3ac0c485fc14")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR075"
 			(at 146.05 53.34 0)
 			(effects
 				(font
@@ -12603,7 +12927,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0115")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12619,7 +12943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b7da54-d8b9-49c8-ad2f-ad06156bec09")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0104"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -12669,7 +12993,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR077")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -12684,7 +13008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59af5136-5d7e-4297-a3ff-7f9640cf0508")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 147.32 106.172 0)
 			(effects
 				(font
@@ -12756,6 +13080,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dc259a61-635d-4589-8ba9-68ebcff20390")
 		)
@@ -12777,7 +13119,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12792,7 +13134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aef8bd4-cd6f-4777-a7de-353f66bb4e70")
-		(property "Reference" "C1"
+		(property "Reference" "C55"
 			(at 17.272 173.482 0)
 			(effects
 				(font
@@ -13008,6 +13350,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 16.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 16.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bfb4745-19e0-4668-8b0d-938ca923154d")
 		)
@@ -13017,7 +13377,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C1")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -13033,7 +13393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627af221-a048-4371-808c-7b25ceb6af26")
-		(property "Reference" "R44"
+		(property "Reference" "R32"
 			(at 209.55 55.8799 0)
 			(effects
 				(font
@@ -13105,6 +13465,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "924dd7d1-60cb-4b22-b495-08c7f67b94a5")
 		)
@@ -13114,7 +13492,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R44")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -13129,7 +13507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63d0270d-c392-4fab-97d6-03a565a292ca")
-		(property "Reference" "D15"
+		(property "Reference" "D7"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -13417,6 +13795,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b5780ba-e875-4cba-aad4-41c4c8d88455")
 		)
@@ -13426,7 +13822,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "D15")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13442,7 +13838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69231732-e38e-4fda-8ec9-c210d646a5aa")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR097"
 			(at 53.34 129.54 0)
 			(effects
 				(font
@@ -13491,7 +13887,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR015")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -13693,6 +14089,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ebe1b87-6866-4bb5-904a-855481371086")
 		)
@@ -13732,7 +14146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6da663f0-5cbe-442c-b3c0-264d90ec58f1")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0107"
 			(at 11.43 172.72 0)
 			(effects
 				(font
@@ -13781,7 +14195,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR088")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -14084,6 +14498,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 45.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a08d6be-63b3-440d-a007-eb244dc1c01d")
 		)
@@ -14108,7 +14540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72fc5176-43c6-4223-8f1e-47decd3e46f1")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 252.73 134.62 0)
 			(effects
 				(font
@@ -14259,10 +14691,28 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14277,7 +14727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73c960f8-7527-48ee-ae8e-0bd780422b6b")
-		(property "Reference" "D12"
+		(property "Reference" "D2"
 			(at 238.887 53.594 0)
 			(effects
 				(font
@@ -14508,6 +14958,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 242.062 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 242.062 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "195a8a6e-e264-477a-8d9e-c8205be4079c")
 		)
@@ -14517,7 +14985,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "D12")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14532,7 +15000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "784a5c39-7ed1-46fa-8e49-1feb66623356")
-		(property "Reference" "C31"
+		(property "Reference" "C53"
 			(at 123.19 162.814 0)
 			(effects
 				(font
@@ -14604,6 +15072,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 129.54 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 129.54 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bed72e3-d193-4033-acdd-8225476b21d6")
 		)
@@ -14613,7 +15099,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C31")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -14628,7 +15114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a9fc650-2d3f-4f03-a04c-a25e3b7b2cd3")
-		(property "Reference" "D8"
+		(property "Reference" "D4"
 			(at 151.13 62.992 0)
 			(effects
 				(font
@@ -14860,6 +15346,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f541f37-940b-468d-9e2d-b9f252dc6498")
 		)
@@ -14869,7 +15373,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "D8")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -14884,7 +15388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aa54898-7f3e-44bc-a016-48ed65f5c4a5")
-		(property "Reference" "C10"
+		(property "Reference" "C46"
 			(at 157.48 38.354 90)
 			(effects
 				(font
@@ -15098,6 +15602,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 157.48 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 157.48 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f1859da-84c8-4c03-b78e-9f35cf088803")
 		)
@@ -15107,7 +15629,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C10")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -15123,7 +15645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c8229c4-7df2-4e18-91a0-c7368bca3d0b")
-		(property "Reference" "C21"
+		(property "Reference" "C51"
 			(at 185.42 111.7599 0)
 			(effects
 				(font
@@ -15195,6 +15717,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "727a19eb-587b-47cb-9c36-73852efa81b5")
 		)
@@ -15204,7 +15744,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C21")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -15219,7 +15759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "828c990e-af43-42ba-89c0-b49b265ab49b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0115"
 			(at 46.99 199.39 0)
 			(effects
 				(font
@@ -15268,7 +15808,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR014")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -15283,7 +15823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b3cc5b5-91c5-4108-b8a3-2c6c15ef3b20")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR066"
 			(at 201.93 33.02 0)
 			(effects
 				(font
@@ -15332,7 +15872,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR045")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -15347,7 +15887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fb6d7c9-3cdb-4cab-b735-d9e8c0938a53")
-		(property "Reference" "P4"
+		(property "Reference" "P1"
 			(at 26.8478 28.7782 0)
 			(effects
 				(font
@@ -15363,7 +15903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:C393939"
+		(property "Footprint" "PWNCube:C393939"
 			(at 27.94 50.8 0)
 			(effects
 				(font
@@ -15635,6 +16175,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 24.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 24.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "eb0763fe-1e18-4096-bdce-3470d8056ead")
 		)
@@ -15677,7 +16235,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "P4")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -15692,7 +16250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94a43a07-2849-4e35-af56-be9c607df2b4")
-		(property "Reference" "R13"
+		(property "Reference" "R28"
 			(at 81.534 44.196 90)
 			(effects
 				(font
@@ -15964,6 +16522,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 83.82 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 83.82 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a5e5b430-46f2-49ab-9d6d-eac4fd319ef6")
 		)
@@ -15973,7 +16549,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R13")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -15989,7 +16565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a9a3fa-2051-4e6c-86ed-bb2bfb4e2d98")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR078"
 			(at 269.24 55.88 0)
 			(effects
 				(font
@@ -16039,7 +16615,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR079")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -16055,7 +16631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96dd5140-7279-46ee-98a7-ecd7bfba915e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0103"
 			(at 20.32 157.48 0)
 			(effects
 				(font
@@ -16105,7 +16681,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR07")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -16120,7 +16696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9889036a-8bd0-4f6c-8e77-1e552d8243c8")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR086"
 			(at 24.13 82.042 0)
 			(effects
 				(font
@@ -16170,7 +16746,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR038")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -16186,7 +16762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99a8b2fb-1cf3-42ca-a7cc-6eb263a15f8c")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR093"
 			(at 97.79 118.11 0)
 			(effects
 				(font
@@ -16236,7 +16812,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR090")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -16251,7 +16827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d40f03b-715b-46cd-91c2-4a460a69439f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR082"
 			(at 264.16 71.12 0)
 			(effects
 				(font
@@ -16301,7 +16877,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR028")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -16316,7 +16892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a08502ae-e5df-4046-8bc1-76c708216170")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 252.73 148.59 0)
 			(effects
 				(font
@@ -16467,10 +17043,28 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 257.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -16486,7 +17080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a8529c-bde4-4eaa-ab64-72afffff3499")
-		(property "Reference" "C7"
+		(property "Reference" "C52"
 			(at 101.6 118.1099 0)
 			(effects
 				(font
@@ -16702,6 +17296,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "809c0d9f-4aa2-4198-aea2-cd3571565fa9")
 		)
@@ -16711,7 +17323,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C7")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -16726,7 +17338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a36761be-7c4e-4885-8917-7af5cc00cbed")
-		(property "Reference" "R11"
+		(property "Reference" "R33"
 			(at 236.5756 60.1726 0)
 			(effects
 				(font
@@ -16959,6 +17571,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 235.077 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 235.077 61.341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e55ddf9-ad8c-4b11-90f8-ba43f21b213a")
 		)
@@ -16968,7 +17598,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R11")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -16983,7 +17613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa354bcb-e175-46f9-9265-41b4f4862934")
-		(property "Reference" "F3"
+		(property "Reference" "F2"
 			(at 87.63 137.541 0)
 			(effects
 				(font
@@ -17271,6 +17901,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e934e257-7fc9-4c4f-9bd9-1dba079cfa5e")
 		)
@@ -17280,7 +17928,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "F3")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -17296,7 +17944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abdc8c5d-c889-4056-a9b2-673021b7de15")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 99.06 135.89 0)
 			(effects
 				(font
@@ -17312,7 +17960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:USB_A_Connfly_DS1095"
+		(property "Footprint" "PWNCube:USB_A_Connfly_DS1095"
 			(at 95.25 148.59 0)
 			(effects
 				(font
@@ -17510,6 +18158,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f068c9a-eaf2-48bf-beb6-7c08040d7c02")
 		)
@@ -17528,7 +18194,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -17543,7 +18209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae19a0ed-0e0e-434e-857e-dcae35f6d9ec")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR099"
 			(at 97.79 130.81 0)
 			(effects
 				(font
@@ -17592,7 +18258,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR020")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -17607,7 +18273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae383924-de27-4479-8cbc-1771613bf8fb")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0106"
 			(at 100.33 166.37 0)
 			(effects
 				(font
@@ -17656,7 +18322,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR093")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -17672,7 +18338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afddaf14-4bcc-46df-b820-f8f036b20a9e")
-		(property "Reference" "C32"
+		(property "Reference" "C54"
 			(at 157.48 162.5599 0)
 			(effects
 				(font
@@ -17744,6 +18410,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 153.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 153.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcca62bb-53c1-4ad5-b011-046d80876497")
 		)
@@ -17753,7 +18437,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C32")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -17769,7 +18453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b665331f-22e1-462c-a621-4dc7616f01e7")
-		(property "Reference" "Y5"
+		(property "Reference" "Y3"
 			(at 46.99 179.07 0)
 			(effects
 				(font
@@ -17821,6 +18505,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 46.99 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfd43d53-9257-47c1-82af-e9df7aa42cd8")
 		)
@@ -17836,7 +18538,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "Y5")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -17851,7 +18553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b95262ee-00b2-4a0a-b7b4-7a397172b3af")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR072"
 			(at 50.8 50.165 0)
 			(effects
 				(font
@@ -17901,7 +18603,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR044")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -17917,7 +18619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9c0a488-bca7-475d-a361-2d40b4db9d7a")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -17968,7 +18670,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -17984,7 +18686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0605472-1b5f-44af-8499-89a75fa17744")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 162.56 97.79 0)
 			(effects
 				(font
@@ -18072,6 +18774,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "398341b9-809a-4351-95c4-9b3eea93926d")
 		)
@@ -18081,7 +18801,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "D9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -18096,7 +18816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c11bd826-58a2-459a-86bf-5abe6d7566ed")
-		(property "Reference" "C18"
+		(property "Reference" "C48"
 			(at 259.969 59.309 0)
 			(effects
 				(font
@@ -18386,6 +19106,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 264.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 264.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e05ede9-528e-46e5-8b55-1b33e1094260")
 		)
@@ -18395,7 +19133,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C18")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -18411,7 +19149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c38208cd-6fe5-440c-aec0-56cf7f1bd48d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR098"
 			(at 147.32 129.54 0)
 			(effects
 				(font
@@ -18461,7 +19199,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR030")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -18476,7 +19214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c575cfde-3758-46c3-834e-d048985c346b")
-		(property "Reference" "C8"
+		(property "Reference" "C57"
 			(at 112.268 179.07 0)
 			(effects
 				(font
@@ -18692,6 +19430,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18732247-d5f0-4935-9074-8567b8fa7ad2")
 		)
@@ -18701,7 +19457,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C8")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -18717,7 +19473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9197f0c-934a-48cf-8984-55f71811ae8a")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR090"
 			(at 181.61 105.41 0)
 			(effects
 				(font
@@ -18767,7 +19523,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR060")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -18783,7 +19539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caa7eb6c-0d5d-4904-9460-81dd05d5e5e4")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0112"
 			(at 109.22 179.07 0)
 			(effects
 				(font
@@ -18833,7 +19589,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR094")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -18849,7 +19605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1eaff11-fb5a-4b5f-a934-a9f7f1064d3e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0109"
 			(at 153.67 175.26 0)
 			(effects
 				(font
@@ -18899,7 +19655,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR033")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -18915,7 +19671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d43c34bf-ad81-4aec-b89a-4f5000b831f1")
-		(property "Reference" "R32"
+		(property "Reference" "R35"
 			(at 180.34 72.3899 0)
 			(effects
 				(font
@@ -18987,6 +19743,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0369af8-cfa8-4d19-b113-dcde35080215")
 		)
@@ -18996,7 +19770,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R32")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -19011,7 +19785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4da8922-da33-442d-83b9-245b1a54ef87")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR087"
 			(at 177.8 85.09 0)
 			(effects
 				(font
@@ -19062,7 +19836,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR033")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -19077,7 +19851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d684b673-5cf8-422a-a65a-8f8fdefa1f02")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR080"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -19127,7 +19901,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR021")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -19142,7 +19916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6f75370-fdeb-4722-ab2d-615172c68748")
-		(property "Reference" "C22"
+		(property "Reference" "C50"
 			(at 118.872 111.506 0)
 			(effects
 				(font
@@ -19214,6 +19988,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1330c43f-1124-433d-a5ec-aa1f48c79b25")
 		)
@@ -19223,7 +20015,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C22")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -19238,7 +20030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d93924c5-0ad7-4702-afa3-9c091b652793")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR083"
 			(at 235.077 71.628 0)
 			(effects
 				(font
@@ -19287,7 +20079,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR076")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -19302,7 +20094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da1cde81-7272-403b-a089-826875af1deb")
-		(property "Reference" "C9"
+		(property "Reference" "C47"
 			(at 93.345 54.61 0)
 			(effects
 				(font
@@ -19566,6 +20358,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9ccd74f-9b56-46bb-99f8-29dd6d1786c9")
 		)
@@ -19575,7 +20385,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "C9")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -19590,7 +20400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc04078a-5146-4989-814f-17410de84690")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0113"
 			(at 20.32 187.96 0)
 			(effects
 				(font
@@ -19639,7 +20449,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR091")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -19654,7 +20464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "def4a682-4dce-456d-bb88-bd25df15ac84")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR067"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -19703,7 +20513,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR029")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -19719,7 +20529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e35a03d0-22f1-45b8-910b-d8b42a49291b")
-		(property "Reference" "R46"
+		(property "Reference" "R29"
 			(at 148.59 54.6099 0)
 			(effects
 				(font
@@ -19791,6 +20601,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5feebaec-f975-4a3b-8bb6-ca5511dce2e6")
 		)
@@ -19800,7 +20628,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "R46")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -19815,7 +20643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb96e590-8b3d-4093-8c23-aade59d7b0ea")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR088"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -19866,7 +20694,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0159")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -20098,6 +20926,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "341c38bb-6c22-4ffd-be4e-d35460cd00b3")
 		)
@@ -20123,7 +20969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1eeb99d-d8a9-4776-b12c-05add3c0106d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR092"
 			(at 76.2 113.03 0)
 			(effects
 				(font
@@ -20173,7 +21019,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR016")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -20188,7 +21034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f381c3ac-e68e-44fd-88aa-b2edf67a0f01")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR077"
 			(at 207.01 54.61 0)
 			(effects
 				(font
@@ -20237,7 +21083,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0113")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -20252,7 +21098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f38a199a-71de-4a77-833a-48ab76a631e1")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0114"
 			(at 109.22 191.77 0)
 			(effects
 				(font
@@ -20301,7 +21147,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0147")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -20317,7 +21163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4435fb2-747b-405e-81de-cc567d4616c4")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 99.06 168.91 0)
 			(effects
 				(font
@@ -20333,7 +21179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:USB_A_Connfly_DS1095"
+		(property "Footprint" "PWNCube:USB_A_Connfly_DS1095"
 			(at 95.25 181.61 0)
 			(effects
 				(font
@@ -20531,6 +21377,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7103eeb2-d08f-4632-8021-1294b489ba5e")
 		)
@@ -20549,7 +21413,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -20564,7 +21428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f48c8388-236b-432b-819b-2528d08f98a0")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR084"
 			(at 187.96 77.47 0)
 			(effects
 				(font
@@ -20615,7 +21479,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR0163")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -20631,7 +21495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68407e4-019c-4258-a747-247963027586")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0101"
 			(at 167.64 135.89 0)
 			(effects
 				(font
@@ -20681,7 +21545,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR034")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -20697,7 +21561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7b8efc5-48de-478e-9520-6947a172301f")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 143.51 152.4 0)
 			(effects
 				(font
@@ -20767,6 +21631,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76a25add-485d-4856-bbca-0d3d7a6879a2")
 		)
@@ -20782,7 +21664,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -20797,7 +21679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8ec5dff-ee23-41b4-ac07-09f9b862c8ef")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR081"
 			(at 92.71 68.58 0)
 			(effects
 				(font
@@ -20847,7 +21729,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR022")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -20863,7 +21745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa6a8448-aa25-4383-8826-f2388e0ac5de")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0105"
 			(at 153.67 160.02 0)
 			(effects
 				(font
@@ -20913,7 +21795,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR084")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -20928,7 +21810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa9526da-ad47-485f-872b-d36ee9f2efa6")
-		(property "Reference" "F4"
+		(property "Reference" "F3"
 			(at 87.63 170.561 0)
 			(effects
 				(font
@@ -21216,6 +22098,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6caed266-cbe8-433f-919b-9ad99af0d63f")
 		)
@@ -21225,7 +22125,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "F4")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -21240,7 +22140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc3579cd-446e-4688-9c7b-0a4a923ecff1")
-		(property "Reference" "D14"
+		(property "Reference" "D6"
 			(at 80.01 144.78 0)
 			(effects
 				(font
@@ -21528,6 +22428,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" ""
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Remplazos" ""
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f9eafd4-a014-4032-821f-825a92b24531")
 		)
@@ -21537,7 +22455,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "D14")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -21553,7 +22471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe26aa22-8ca3-423b-b073-4c47244df4fa")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0108"
 			(at 129.54 175.26 0)
 			(effects
 				(font
@@ -21603,7 +22521,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR034")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -21619,7 +22537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee55899-d1f7-431d-b7d7-bc9d7a2bba9f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR089"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -21669,7 +22587,7 @@
 		(instances
 			(project "PWNSAT"
 				(path "/c4013328-b893-46ab-bd04-6706a3894292/f40f9b3b-e727-4858-99c9-9b2e636da4b6"
-					(reference "#PWR023")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
