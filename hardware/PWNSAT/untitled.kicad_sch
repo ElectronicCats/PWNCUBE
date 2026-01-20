@@ -12874,10 +12874,6 @@
 		(uuid "2e2f203e-ac78-4597-8e05-869f8849ec72")
 	)
 	(no_connect
-		(at 134.62 100.33)
-		(uuid "3103de84-f673-4adc-bb6b-bd13590d9ca1")
-	)
-	(no_connect
 		(at 287.02 195.58)
 		(uuid "42ae4d97-17ae-4593-817e-978ab9f9f70a")
 	)
@@ -13250,6 +13246,16 @@
 			(type default)
 		)
 		(uuid "11e88ea2-f001-4601-ad7d-8194b34de30c")
+	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1255a37b-7fa8-417a-8266-3d2fa8fdc2fc")
 	)
 	(wire
 		(pts
@@ -16150,6 +16156,16 @@
 			(justify left bottom)
 		)
 		(uuid "aa19fb3d-afc6-4757-adc2-85504e208d06")
+	)
+	(label "VCC1V8_CODEC"
+		(at 120.65 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0962495-6153-4335-a53e-4ee6fa64b964")
 	)
 	(label "GPIO"
 		(at 100.33 175.26 0)
