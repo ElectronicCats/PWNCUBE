@@ -1301,17 +1301,6 @@
 		)
 		(uuid "16b46b99-9c92-4a17-82e4-9ce3d503a72e")
 	)
-	(hierarchical_label "SDA_BME280"
-		(shape bidirectional)
-		(at 172.72 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "188f6cdc-258f-4920-8553-ff5da6577978")
-	)
 	(hierarchical_label "R0_BUSY"
 		(shape input)
 		(at 172.72 66.04 180)
@@ -1465,17 +1454,6 @@
 			(justify right)
 		)
 		(uuid "b5378a69-d5c3-4572-98bf-855d2aa37b99")
-	)
-	(hierarchical_label "SCL_BME280"
-		(shape output)
-		(at 172.72 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c3ea28f8-ef0f-45d5-8081-e18129a357d3")
 	)
 	(hierarchical_label "R0_RST"
 		(shape input)

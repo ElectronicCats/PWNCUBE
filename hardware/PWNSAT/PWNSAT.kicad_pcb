@@ -241,6 +241,8 @@
 	(net 161 "unconnected-(U8-DM3-Pad3)")
 	(net 162 "/USB/XOUT")
 	(net 163 "unconnected-(U8-DM4-Pad1)")
+	(net 164 "unconnected-(FLEX1-Pad23)")
+	(net 165 "unconnected-(FLEX1-Pad22)")
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "026cba33-86ea-428b-a01d-b40af18c04ce")
@@ -9321,7 +9323,7 @@
 				)
 			)
 		)
-		(path "/fc33247d-89c6-4062-b5d8-5f7b51f6b105/ec5b759b-845f-4628-9f55-564752762192")
+		(path "/fc33247d-89c6-4062-b5d8-5f7b51f6b105/848b1b5d-b60f-421a-bcb8-0893ad22a324")
 		(sheetname "/core/")
 		(sheetfile "untitled.kicad_sch")
 		(clearance 0.1)
@@ -22162,7 +22164,7 @@
 			(at 4.75 -1.85)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 89 "/Sensor/SDA_BME280")
+			(net 165 "unconnected-(FLEX1-Pad22)")
 			(pinfunction "22")
 			(pintype "passive")
 			(uuid "8d12a640-67c2-42b5-b1a3-a60bce9d3a02")
@@ -22171,7 +22173,7 @@
 			(at 5.25 -1.85)
 			(size 0.3 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 127 "/Sensor/SCL_BME280")
+			(net 164 "unconnected-(FLEX1-Pad23)")
 			(pinfunction "23")
 			(pintype "passive")
 			(uuid "662e7658-ff54-4ec1-9d75-af71f243ab22")
@@ -58922,7 +58924,7 @@
 		(property "Reference" "J3"
 			(at 0 11.53 90)
 			(layer "B.SilkS")
-			(uuid "a7d5b175-0473-4215-8f07-aa6e06e25b44")
+			(uuid "adcb871e-9d13-4fb6-b00c-4b7dc71694f4")
 			(effects
 				(font
 					(size 1 1)
@@ -58934,7 +58936,7 @@
 		(property "Value" "Battery"
 			(at 0 -11.53 90)
 			(layer "B.Fab")
-			(uuid "888d0cff-8d95-4472-b8ed-4985e9017db3")
+			(uuid "fb6ea0fc-ed2d-4c29-a7be-86e9731b6c89")
 			(effects
 				(font
 					(size 1 1)
@@ -58947,7 +58949,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8caf4ba0-d51d-4f15-9b47-28d33fe7ac5c")
+			(uuid "5c89e614-bfbb-46a7-b76c-ea62f5de490b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58960,7 +58962,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "63a26b72-5907-44f2-b014-51c90d87f0c2")
+			(uuid "11ebde98-1414-4048-9c18-c71d534cee96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62839,6 +62841,30 @@
 		(layer "F.Cu")
 		(net 66)
 		(uuid "9d149d81-58e0-4fe5-be52-fefae23caf3b")
+	)
+	(segment
+		(start 53.335 25.64)
+		(end 53.335 27.11)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "11b267b5-c9ab-4739-a3c5-7d4cf586880c")
+	)
+	(segment
+		(start 53.125 25.85)
+		(end 53.335 25.64)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "15399069-da5f-40c2-b9e3-5b4391e7f7a7")
+	)
+	(segment
+		(start 51.7475 25.85)
+		(end 53.125 25.85)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 70)
+		(uuid "3bf3b67d-d5cd-46b6-81ae-e912d86aaa71")
 	)
 	(segment
 		(start 44.063712 61.920001)
