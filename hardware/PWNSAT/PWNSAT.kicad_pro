@@ -874,7 +874,11 @@
     ],
     [
       "f40f9b3b-e727-4858-99c9-9b2e636da4b6",
-      "USB"
+      "Source_Connector"
+    ],
+    [
+      "d0055fee-0ca3-4249-8f52-8bf7279c4c34",
+      "USB_Selector"
     ]
   ],
   "text_variables": {}
