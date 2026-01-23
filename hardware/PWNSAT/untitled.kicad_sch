@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "79455d44-53e7-44be-9c27-b80590559892")
 	(paper "A3")
+	(title_block
+		(title "PWNCube")
+		(date "2026-01-23")
+		(rev "1.0")
+		(company "ElectronicCats")
+		(comment 1 "Edgar Capuchino")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names

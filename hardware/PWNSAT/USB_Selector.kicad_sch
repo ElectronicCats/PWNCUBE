@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "f37dac3f-dbdc-496c-82ea-6fc17609f63f")
 	(paper "A4")
+	(title_block
+		(title "PWNCube")
+		(date "2026-01-23")
+		(rev "1.0")
+		(company "Electronic Cats")
+		(comment 1 "Edgar Capuchino")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_A"
 			(pin_names
@@ -3258,6 +3265,12 @@
 		(uuid "8bb995c9-9643-479f-b808-5bfee69b75b4")
 	)
 	(junction
+		(at 210.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cc5686e-0147-452f-8735-c0f66601fc53")
+	)
+	(junction
 		(at 201.93 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3797,7 +3810,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 88.9) (xy 210.82 91.44)
+			(xy 210.82 85.09) (xy 210.82 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3997,6 +4010,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 87.63) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96745c93-d271-4d7c-96a2-7c184f5b85b5")
+	)
+	(wire
+		(pts
 			(xy 78.74 57.15) (xy 78.74 55.88)
 		)
 		(stroke
@@ -4097,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 88.9) (xy 186.69 91.44)
+			(xy 186.69 85.09) (xy 186.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4214,6 +4237,16 @@
 			(type default)
 		)
 		(uuid "d8622a63-98e4-4c17-a1c1-9c821746f483")
+	)
+	(wire
+		(pts
+			(xy 210.82 87.63) (xy 214.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9642e04-2a76-4d50-832e-2e5959d785d5")
 	)
 	(wire
 		(pts
@@ -4544,6 +4577,17 @@
 			(justify right bottom)
 		)
 		(uuid "fab01dae-778b-4133-bd32-f36ba74fe87f")
+	)
+	(hierarchical_label "+3.3v"
+		(shape input)
+		(at 214.63 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23b0e430-944e-4b06-9e8e-8c96d9807487")
 	)
 	(hierarchical_label "+3.3v"
 		(shape output)
@@ -6222,7 +6266,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 186.69 88.9 0)
+		(at 186.69 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6231,7 +6275,7 @@
 		(fields_autoplaced yes)
 		(uuid "56b7da54-d8b9-49c8-ad2f-ad06156bec09")
 		(property "Reference" "#PWR0104"
-			(at 186.69 92.71 0)
+			(at 186.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6284,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 186.69 83.82 0)
+			(at 186.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 88.9 0)
+			(at 186.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 88.9 0)
+			(at 186.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +6310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 186.69 88.9 0)
+			(at 186.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10455,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 210.82 88.9 0)
+		(at 210.82 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10420,7 +10464,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa6a8448-aa25-4383-8826-f2388e0ac5de")
 		(property "Reference" "#PWR0105"
-			(at 210.82 92.71 0)
+			(at 210.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10473,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 210.82 83.82 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,7 +10481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 88.9 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 88.9 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 88.9 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

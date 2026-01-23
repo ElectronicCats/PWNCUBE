@@ -159,6 +159,16 @@
 				(justify right)
 			)
 		)
+		(pin "+3.3v" output
+			(at 134.62 55.88 0)
+			(uuid "17824da4-d054-4231-a3f0-6034b25c3a1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Battery_Board"
 				(path "/575e3b02-8b1c-4d49-bab4-a07d6288bebf"

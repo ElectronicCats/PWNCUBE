@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "1723f6db-97b3-4ece-8c94-8a06f90434b0")
 	(paper "A4")
+	(title_block
+		(title "Battery_Board")
+		(date "2026-01-23")
+		(rev "1.0")
+		(company "Electronic Cats")
+		(comment 1 "Edgar Capuchino")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
@@ -2456,7 +2463,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2477,7 +2484,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2503,7 +2510,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2521,7 +2528,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2559,7 +2566,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3138,6 +3145,12 @@
 		(uuid "7bc5efcb-4afa-4431-b910-7eecaeea2853")
 	)
 	(junction
+		(at 146.05 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5cdf281-289f-4bd7-9635-41e43438a72a")
+	)
+	(junction
 		(at 187.96 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3179,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 50.8) (xy 146.05 53.34)
+			(xy 146.05 48.26) (xy 146.05 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3569,6 +3582,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 50.8) (xy 146.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ae08bf-387e-497b-ab30-3a9f69380f0b")
+	)
+	(wire
+		(pts
 			(xy 48.26 41.91) (xy 50.8 41.91)
 		)
 		(stroke
@@ -3849,6 +3872,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 50.8) (xy 146.05 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c231c376-9c36-4b08-ac94-a0f2ae54107b")
+	)
+	(wire
+		(pts
 			(xy 207.01 52.07) (xy 207.01 54.61)
 		)
 		(stroke
@@ -4052,6 +4085,17 @@
 			(justify left)
 		)
 		(uuid "c22d696e-31bf-4bdd-b673-e8ef80fce801")
+	)
+	(hierarchical_label "+3.3v"
+		(shape output)
+		(at 144.78 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db625b12-6bd3-4552-9920-dc6ce4192b84")
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -7456,72 +7500,6 @@
 			(project "Battery_Board"
 				(path "/575e3b02-8b1c-4d49-bab4-a07d6288bebf/1451f59f-2b56-4011-b9cc-b834ac47899f"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 146.05 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56132206-59e1-433e-a55b-3ac0c485fc14")
-		(property "Reference" "#PWR075"
-			(at 146.05 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 146.05 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad4c6ed8-5985-4d7c-af37-9775f171db92")
-		)
-		(instances
-			(project "Battery_Board"
-				(path "/575e3b02-8b1c-4d49-bab4-a07d6288bebf/1451f59f-2b56-4011-b9cc-b834ac47899f"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12135,6 +12113,72 @@
 			(project "Battery_Board"
 				(path "/575e3b02-8b1c-4d49-bab4-a07d6288bebf/1451f59f-2b56-4011-b9cc-b834ac47899f"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 146.05 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa6a8448-aa25-4383-8826-f2388e0ac5de")
+		(property "Reference" "#PWR0105"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 146.05 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 146.05 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4660829a-dfdc-4004-92aa-ddc567b63530")
+		)
+		(instances
+			(project "Battery_Board"
+				(path "/575e3b02-8b1c-4d49-bab4-a07d6288bebf/1451f59f-2b56-4011-b9cc-b834ac47899f"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
