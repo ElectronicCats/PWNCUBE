@@ -3997,6 +3997,12 @@
 		(uuid "3ac8f3db-fd01-4fe0-80b7-fdb28414e41b")
 	)
 	(junction
+		(at 21.59 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fa7f308-6821-4693-aeb5-0f6879803789")
+	)
+	(junction
 		(at 276.86 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4081,7 +4087,7 @@
 		(uuid "abee9090-a894-49dc-806d-aab30bae6e67")
 	)
 	(junction
-		(at 20.32 26.67)
+		(at 21.59 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0d444b8-1337-414b-ad20-3264980f62f5")
@@ -4169,12 +4175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2399096-5ddc-4ea3-b529-9d4821d119d0")
-	)
-	(junction
-		(at 20.32 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5acb0c9-1a42-4e73-b4ec-1c25215ef93e")
 	)
 	(junction
 		(at 210.058 85.471)
@@ -4430,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 31.75) (xy 25.4 30.48)
+			(xy 26.67 31.75) (xy 26.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4590,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 30.48) (xy 20.32 30.48)
+			(xy 26.67 30.48) (xy 21.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4610,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 36.83) (xy 15.24 38.1)
+			(xy 16.51 36.83) (xy 16.51 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4620,7 +4620,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 30.48) (xy 15.24 31.75)
+			(xy 16.51 30.48) (xy 16.51 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5170,7 +5170,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 38.1) (xy 25.4 38.1)
+			(xy 21.59 38.1) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5220,7 +5220,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 24.13) (xy 20.32 26.67)
+			(xy 21.59 24.13) (xy 21.59 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5360,7 +5360,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 26.67) (xy 20.32 30.48)
+			(xy 21.59 26.67) (xy 21.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5900,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 26.67) (xy 20.32 26.67)
+			(xy 19.05 26.67) (xy 21.59 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6670,7 +6670,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 30.48) (xy 15.24 30.48)
+			(xy 16.51 30.48) (xy 21.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6850,7 +6850,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 38.1) (xy 25.4 36.83)
+			(xy 26.67 38.1) (xy 26.67 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6880,7 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 38.1) (xy 21.59 38.1)
+			(xy 16.51 38.1) (xy 21.59 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7541,7 +7541,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 17.78 26.67 180)
+		(at 19.05 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9896,7 +9896,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 20.32 24.13 0)
+		(at 21.59 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9905,7 +9905,7 @@
 		(fields_autoplaced yes)
 		(uuid "27d3f3e5-8f66-4a88-94ee-18a9bf506bc0")
 		(property "Reference" "#PWR016"
-			(at 20.32 27.94 0)
+			(at 21.59 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9914,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 20.32 19.05 0)
+			(at 21.59 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +9922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 24.13 0)
+			(at 21.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +9931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 24.13 0)
+			(at 21.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +9940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 20.32 24.13 0)
+			(at 21.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14574,7 +14574,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 25.4 34.29 0)
+		(at 26.67 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14582,7 +14582,7 @@
 		(dnp no)
 		(uuid "8c4d6923-346b-400f-912d-88f721c5ef4b")
 		(property "Reference" "C8"
-			(at 27.94 33.0262 0)
+			(at 29.21 33.0262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14591,7 +14591,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 26.162 36.576 0)
+			(at 27.432 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14599,8 +14599,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 25.4 34.29 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14609,7 +14609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14618,7 +14618,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14627,7 +14627,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14636,7 +14636,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14645,7 +14645,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,7 +14654,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14663,7 +14663,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14672,7 +14672,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14681,7 +14681,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14690,7 +14690,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14699,7 +14699,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14708,7 +14708,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,7 +14717,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 25.4 34.29 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17144,7 +17144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 			(at 66.04 44.45 0)
 			(effects
 				(font
@@ -20806,7 +20806,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 15.24 34.29 0)
+		(at 16.51 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20814,7 +20814,7 @@
 		(dnp no)
 		(uuid "fbac040b-3ca0-44f5-b8c2-266c567b85f8")
 		(property "Reference" "C7"
-			(at 17.78 33.0262 0)
+			(at 12.192 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20823,7 +20823,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 16.002 36.576 0)
+			(at 10.414 36.0618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20832,7 +20832,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20841,7 +20841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20850,7 +20850,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20859,7 +20859,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20868,7 +20868,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20877,7 +20877,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20886,7 +20886,7 @@
 			)
 		)
 		(property "LCSC#" "C56392"
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20895,7 +20895,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20904,7 +20904,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20913,7 +20913,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20922,7 +20922,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20931,7 +20931,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20940,7 +20940,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20949,7 +20949,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20958,7 +20958,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20967,7 +20967,7 @@
 			)
 		)
 		(property "#LCSC" "C56392"
-			(at 15.24 34.29 0)
+			(at 16.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
