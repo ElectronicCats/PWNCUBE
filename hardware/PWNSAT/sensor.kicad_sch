@@ -2008,7 +2008,7 @@
 	)
 	(hierarchical_label "R1_BUSY"
 		(shape input)
-		(at 69.85 83.82 180)
+		(at 69.85 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,7 +2107,7 @@
 	)
 	(hierarchical_label "R0_MOSI"
 		(shape input)
-		(at 69.85 48.26 180)
+		(at 69.85 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2173,7 +2173,7 @@
 	)
 	(hierarchical_label "R0_MISO"
 		(shape input)
-		(at 69.85 45.72 180)
+		(at 69.85 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2294,7 +2294,7 @@
 	)
 	(hierarchical_label "R1_RST"
 		(shape input)
-		(at 69.85 81.28 180)
+		(at 69.85 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
