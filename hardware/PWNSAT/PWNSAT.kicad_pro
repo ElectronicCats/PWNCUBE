@@ -790,6 +790,24 @@
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser#",
+          "name": "Mouser#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#LCSC",
+          "name": "#LCSC",
+          "show": false
         }
       ],
       "filter_string": "",

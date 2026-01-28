@@ -1975,7 +1975,7 @@
 	)
 	(hierarchical_label "R0_DIO1"
 		(shape input)
-		(at 69.85 60.96 180)
+		(at 69.85 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1986,7 +1986,7 @@
 	)
 	(hierarchical_label "R0_BUSY"
 		(shape input)
-		(at 69.85 53.34 180)
+		(at 69.85 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 	)
 	(hierarchical_label "R1_ANT_SW"
 		(shape input)
-		(at 69.85 66.04 180)
+		(at 69.85 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2008,7 +2008,7 @@
 	)
 	(hierarchical_label "R1_BUSY"
 		(shape input)
-		(at 69.85 81.28 180)
+		(at 69.85 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2019,7 +2019,7 @@
 	)
 	(hierarchical_label "R1_DIO2"
 		(shape input)
-		(at 99.06 78.74 0)
+		(at 99.06 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 	)
 	(hierarchical_label "SDA_BME280"
 		(shape bidirectional)
-		(at 99.06 60.96 0)
+		(at 99.06 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 	)
 	(hierarchical_label "FSYNC"
 		(shape output)
-		(at 99.06 55.88 0)
+		(at 99.06 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2052,7 +2052,7 @@
 	)
 	(hierarchical_label "R1_SCK"
 		(shape input)
-		(at 69.85 73.66 180)
+		(at 69.85 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2074,18 +2074,18 @@
 	)
 	(hierarchical_label "R0_NSS"
 		(shape input)
-		(at 69.85 40.64 180)
+		(at 99.06 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4e029e8a-fa06-4bae-8b3c-1f86ed31958b")
 	)
 	(hierarchical_label "DIO2"
 		(shape input)
-		(at 69.85 38.1 180)
+		(at 69.85 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2096,18 +2096,18 @@
 	)
 	(hierarchical_label "INT2"
 		(shape output)
-		(at 99.06 58.42 0)
+		(at 69.85 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "53d67fc5-fb49-462a-8d21-b1fa7a7a7712")
 	)
 	(hierarchical_label "R0_MOSI"
 		(shape input)
-		(at 69.85 45.72 180)
+		(at 69.85 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2118,7 +2118,7 @@
 	)
 	(hierarchical_label "R0_DIO3"
 		(shape input)
-		(at 69.85 55.88 180)
+		(at 69.85 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2129,7 @@
 	)
 	(hierarchical_label "R0_ANT_SW"
 		(shape input)
-		(at 69.85 63.5 180)
+		(at 69.85 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,7 +2140,7 @@
 	)
 	(hierarchical_label "R1_NSS"
 		(shape input)
-		(at 69.85 71.12 180)
+		(at 69.85 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2151,7 +2151,7 @@
 	)
 	(hierarchical_label "R1_MOSI"
 		(shape input)
-		(at 69.85 78.74 180)
+		(at 69.85 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,7 +2162,7 @@
 	)
 	(hierarchical_label "R0_SCK"
 		(shape input)
-		(at 69.85 43.18 180)
+		(at 69.85 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2173,7 +2173,7 @@
 	)
 	(hierarchical_label "R0_MISO"
 		(shape input)
-		(at 69.85 48.26 180)
+		(at 69.85 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2184,7 +2184,7 @@
 	)
 	(hierarchical_label "SCL_ICM"
 		(shape output)
-		(at 99.06 48.26 0)
+		(at 99.06 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 	)
 	(hierarchical_label "SDA_ICM"
 		(shape bidirectional)
-		(at 99.06 45.72 0)
+		(at 99.06 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2206,7 +2206,7 @@
 	)
 	(hierarchical_label "INT1"
 		(shape output)
-		(at 99.06 53.34 0)
+		(at 99.06 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 	)
 	(hierarchical_label "R1_DIO1"
 		(shape input)
-		(at 99.06 76.2 0)
+		(at 99.06 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,7 +2228,7 @@
 	)
 	(hierarchical_label "DIO23"
 		(shape input)
-		(at 69.85 68.58 180)
+		(at 69.85 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2239,7 +2239,7 @@
 	)
 	(hierarchical_label "R0_RST"
 		(shape input)
-		(at 69.85 50.8 180)
+		(at 69.85 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2250,12 +2250,12 @@
 	)
 	(hierarchical_label "R0_DIO2"
 		(shape input)
-		(at 69.85 58.42 180)
+		(at 99.06 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e93a653f-8b8d-43ba-a1f7-18146c8029ed")
 	)
@@ -2272,29 +2272,29 @@
 	)
 	(hierarchical_label "AP_ADO"
 		(shape output)
-		(at 99.06 50.8 0)
+		(at 69.85 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ea856d9a-e8d9-4c29-b887-10d9b08cb17a")
 	)
 	(hierarchical_label "SCL_BME280"
 		(shape output)
-		(at 99.06 63.5 0)
+		(at 69.85 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f0319be4-7cb3-4cd7-9900-9fcef07a5bfe")
 	)
 	(hierarchical_label "R1_RST"
 		(shape input)
-		(at 69.85 83.82 180)
+		(at 69.85 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2305,12 +2305,12 @@
 	)
 	(hierarchical_label "R1_DIO3"
 		(shape input)
-		(at 69.85 86.36 180)
+		(at 99.06 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fc4e5105-10bd-4291-9ee0-2fc22fc4046b")
 	)
