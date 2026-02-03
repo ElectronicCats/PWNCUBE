@@ -2052,7 +2052,7 @@
 	)
 	(hierarchical_label "R1_SCK"
 		(shape input)
-		(at 69.85 71.12 180)
+		(at 69.85 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 	)
 	(hierarchical_label "DIO2"
 		(shape input)
-		(at 69.85 83.82 180)
+		(at 69.85 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2096,7 +2096,7 @@
 	)
 	(hierarchical_label "INT2"
 		(shape output)
-		(at 69.85 86.36 180)
+		(at 69.85 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2129,7 @@
 	)
 	(hierarchical_label "R0_ANT_SW"
 		(shape input)
-		(at 69.85 66.04 180)
+		(at 69.85 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2140,7 +2140,7 @@
 	)
 	(hierarchical_label "R1_NSS"
 		(shape input)
-		(at 69.85 68.58 180)
+		(at 69.85 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2151,7 +2151,7 @@
 	)
 	(hierarchical_label "R1_MOSI"
 		(shape input)
-		(at 69.85 73.66 180)
+		(at 69.85 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2184,18 +2184,18 @@
 	)
 	(hierarchical_label "SCL_ICM"
 		(shape output)
-		(at 99.06 63.5 0)
+		(at 69.85 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a73780eb-8e04-4303-9740-71e8b8a5e6a6")
 	)
 	(hierarchical_label "SDA_ICM"
 		(shape bidirectional)
-		(at 99.06 60.96 0)
+		(at 99.06 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 	)
 	(hierarchical_label "AP_ADO"
 		(shape output)
-		(at 69.85 81.28 180)
+		(at 69.85 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2283,12 +2283,12 @@
 	)
 	(hierarchical_label "SCL_BME280"
 		(shape output)
-		(at 69.85 78.74 180)
+		(at 99.06 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f0319be4-7cb3-4cd7-9900-9fcef07a5bfe")
 	)

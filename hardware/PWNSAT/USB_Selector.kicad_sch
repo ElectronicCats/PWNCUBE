@@ -3277,12 +3277,6 @@
 		(uuid "c558bb67-4968-4123-9cb6-8770fce38cde")
 	)
 	(junction
-		(at 120.65 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c61c4db2-80c9-45e0-90f9-508f351666a6")
-	)
-	(junction
 		(at 212.09 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3313,6 +3307,10 @@
 	(no_connect
 		(at 101.6 97.79)
 		(uuid "586f237b-c1f8-401d-bd6a-5b786fe066f5")
+	)
+	(no_connect
+		(at 118.11 38.1)
+		(uuid "8c535ff4-fedb-46f0-9369-ae2bce20925a")
 	)
 	(no_connect
 		(at 101.6 100.33)
@@ -3894,16 +3892,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 50.8) (xy 118.11 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "783e1b3d-98d7-46d3-9a85-2d52d6ea6601")
-	)
-	(wire
-		(pts
 			(xy 144.78 123.19) (xy 146.05 123.19)
 		)
 		(stroke
@@ -3964,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 53.34) (xy 120.65 50.8)
+			(xy 120.65 46.99) (xy 120.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4051,16 +4039,6 @@
 			(type default)
 		)
 		(uuid "aa7220ea-7645-43a2-ad45-ae0ef78f41bd")
-	)
-	(wire
-		(pts
-			(xy 120.65 46.99) (xy 120.65 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd0cbf9-c4a7-45b7-b958-dfe44e89e389")
 	)
 	(wire
 		(pts
@@ -7075,6 +7053,7 @@
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 113.03 44.45 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7082,7 +7061,7 @@
 		(dnp no)
 		(uuid "6962395b-b770-4740-a370-2fee2e09be8a")
 		(property "Reference" "SW4"
-			(at 111.252 47.879 0)
+			(at 111.252 41.021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7069,7 @@
 			)
 		)
 		(property "Value" "USB Selector"
-			(at 113.03 39.5224 0)
+			(at 113.03 49.3776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
