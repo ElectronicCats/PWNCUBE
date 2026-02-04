@@ -5,119 +5,6 @@
 	(uuid "482a218d-0e09-43cf-b589-ec75c2e4c3ff")
 	(paper "A3")
 	(lib_symbols
-		(symbol "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3-power-CatStick-rescue-CatSniffer-rescue"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3-power-CatStick-rescue-CatSniffer-rescue_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3-power-CatStick-rescue-CatSniffer-rescue_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CatSniffer-rescue:0900FM15D0039-Electronic_Cats-CatStick-rescue-CatSniffer-rescue"
 			(pin_names
 				(offset 1.016)
@@ -3961,10 +3848,22 @@
 		(uuid "07c43bc8-ed6b-40d1-af94-96d29957ec08")
 	)
 	(junction
+		(at 209.55 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b6859f-d621-4433-bdaa-477e5a900c6f")
+	)
+	(junction
 		(at 110.49 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a36580-9d46-4df0-931f-007cd9869d2b")
+	)
+	(junction
+		(at 212.09 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb733cd-9850-43ac-9f8a-a61ef614da58")
 	)
 	(junction
 		(at 349.758 64.516)
@@ -4045,16 +3944,34 @@
 		(uuid "614f89f1-9965-45c7-bfeb-5a98ae11ba12")
 	)
 	(junction
+		(at 212.09 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cbdf5ff-8eec-410c-8a29-23126215cd42")
+	)
+	(junction
 		(at 275.971 155.702)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7530403e-5c83-4aa1-a885-c08aeaeb41df")
 	)
 	(junction
+		(at 217.17 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8093920a-ecc9-43d4-a19f-f9535a80a34c")
+	)
+	(junction
 		(at 127 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85575605-0dc6-42bd-a203-d79abf0e6c39")
+	)
+	(junction
+		(at 226.568 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac8e49b-71c9-4e62-90ad-db05ede8d2a6")
 	)
 	(junction
 		(at 114.3 166.37)
@@ -4069,7 +3986,7 @@
 		(uuid "95a0baae-f6d9-4042-a5c2-8cfe1f8a555e")
 	)
 	(junction
-		(at 221.488 53.721)
+		(at 220.98 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b2d3c9c-77db-4e33-8c41-d6a00d51312f")
@@ -4105,12 +4022,6 @@
 		(uuid "b77bd122-cf4c-45b9-aaf2-042ec9dc4725")
 	)
 	(junction
-		(at 212.598 32.131)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7b27be7-5453-4f05-9450-111871bec65b")
-	)
-	(junction
 		(at 116.84 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4121,18 +4032,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d297065b-2d98-4e71-8e29-575682f15dad")
-	)
-	(junction
-		(at 226.568 39.751)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8e34d1b-0904-4fbb-aac0-dbdccdacf235")
-	)
-	(junction
-		(at 211.328 39.751)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d90995e0-1b2a-4027-ab5f-642073406a82")
 	)
 	(junction
 		(at 21.59 38.1)
@@ -4171,18 +4070,6 @@
 		(uuid "f1c5e648-8a8c-4ff7-a3d3-4075667384aa")
 	)
 	(junction
-		(at 216.408 39.751)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2399096-5ddc-4ea3-b529-9d4821d119d0")
-	)
-	(junction
-		(at 210.058 85.471)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8216f6c-3fcc-46c6-b244-35ef1b097809")
-	)
-	(junction
 		(at 213.868 46.101)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4207,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "012b1e43-20ec-4131-96f5-e806ca191016")
-	)
-	(wire
-		(pts
-			(xy 210.058 85.471) (xy 210.058 88.011)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0215b3df-d7e0-41dd-be58-0c595740dc3b")
 	)
 	(wire
 		(pts
@@ -4267,16 +4144,6 @@
 			(type default)
 		)
 		(uuid "04f5ac69-cc53-4cc1-829f-4d540586721a")
-	)
-	(wire
-		(pts
-			(xy 166.878 62.611) (xy 159.258 62.611)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c03ac4-9949-4293-910c-59fd894f8d71")
 	)
 	(wire
 		(pts
@@ -4350,6 +4217,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 31.75) (xy 212.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c91cc0a-9eb5-449b-b3c7-f00e41a2c1ce")
+	)
+	(wire
+		(pts
 			(xy 310.896 55.88) (xy 310.896 60.198)
 		)
 		(stroke
@@ -4357,6 +4234,16 @@
 			(type default)
 		)
 		(uuid "0cc063eb-ad51-4fd1-894d-1ca69ebd110e")
+	)
+	(wire
+		(pts
+			(xy 212.09 39.37) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3592ea-fd93-49d4-bf97-63806f9209e3")
 	)
 	(wire
 		(pts
@@ -4370,23 +4257,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 67.691) (xy 216.408 67.691)
+			(xy 209.55 82.55) (xy 209.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea950c7-5e4f-4943-be46-4139c80c9695")
+	)
+	(wire
+		(pts
+			(xy 207.01 67.31) (xy 215.9 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0efd4df3-66e7-44db-b9ab-7cb88b006914")
-	)
-	(wire
-		(pts
-			(xy 212.598 32.131) (xy 212.598 29.591)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0d5d47-c59f-4551-8748-13a273f033d4")
 	)
 	(wire
 		(pts
@@ -4438,6 +4325,16 @@
 		)
 		(uuid "15413a7d-8656-4dff-a5dc-0185d268e25d")
 	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1662ebad-3917-42f4-b554-5ac67db6b896")
+	)
 	(polyline
 		(pts
 			(xy 321.437 73.914) (xy 321.437 82.296)
@@ -4460,7 +4357,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.488 53.721) (xy 221.488 58.801)
+			(xy 220.98 53.34) (xy 220.98 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4500,26 +4397,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.838 53.721) (xy 221.488 53.721)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c70ddad-b2a1-4380-8073-e952ed094534")
-	)
-	(wire
-		(pts
-			(xy 55.372 161.671) (xy 55.372 163.449)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf45c6c-9e23-4543-882e-4118b152b313")
-	)
-	(wire
-		(pts
 			(xy 114.3 179.07) (xy 121.92 179.07)
 		)
 		(stroke
@@ -4530,7 +4407,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 85.471) (xy 210.058 85.471)
+			(xy 207.01 85.09) (xy 209.55 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4550,7 +4427,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 37.211) (xy 226.568 37.211)
+			(xy 207.01 36.83) (xy 226.568 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4637,16 +4514,6 @@
 			(type default)
 		)
 		(uuid "2bda0fce-138b-498a-b505-287e3e97cc77")
-	)
-	(wire
-		(pts
-			(xy 166.878 49.911) (xy 159.258 49.911)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c97c6cb-bf24-4f57-ba71-d0f7306ecee2")
 	)
 	(wire
 		(pts
@@ -4740,7 +4607,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.878 54.991) (xy 159.258 54.991)
+			(xy 166.37 54.61) (xy 158.75 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4800,16 +4667,6 @@
 	)
 	(wire
 		(pts
-			(xy 159.258 70.231) (xy 166.878 70.231)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3576bec8-f696-4bf5-9c0e-6628e08d98ee")
-	)
-	(wire
-		(pts
 			(xy 128.27 180.34) (xy 128.27 181.61)
 		)
 		(stroke
@@ -4817,6 +4674,16 @@
 			(type default)
 		)
 		(uuid "3651c1d8-cf1a-487f-a404-851ad452c902")
+	)
+	(wire
+		(pts
+			(xy 158.75 49.53) (xy 166.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b0254e-d712-448b-93a7-3d4e3c5fc354")
 	)
 	(wire
 		(pts
@@ -4880,7 +4747,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 33.782) (xy 154.94 36.322)
+			(xy 154.94 33.02) (xy 154.94 36.322)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +4867,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 32.131) (xy 212.598 32.131)
+			(xy 207.01 31.75) (xy 212.09 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5040,16 +4907,6 @@
 	)
 	(wire
 		(pts
-			(xy 159.258 77.851) (xy 166.878 77.851)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46c2f67e-1db6-420a-983f-7d26e2c062f7")
-	)
-	(wire
-		(pts
 			(xy 280.67 45.72) (xy 276.86 45.72)
 		)
 		(stroke
@@ -5057,16 +4914,6 @@
 			(type default)
 		)
 		(uuid "47b316df-63af-40ff-b7e8-61a1c71054b4")
-	)
-	(wire
-		(pts
-			(xy 159.258 75.311) (xy 166.878 75.311)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481d2686-2967-49ad-9872-f284148a32a0")
 	)
 	(wire
 		(pts
@@ -5100,7 +4947,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.258 60.071) (xy 166.878 60.071)
+			(xy 158.75 59.69) (xy 166.37 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5120,7 +4967,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.576 42.291) (xy 166.878 42.291)
+			(xy 163.83 41.91) (xy 166.37 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5150,16 +4997,6 @@
 	)
 	(wire
 		(pts
-			(xy 211.328 39.751) (xy 216.408 39.751)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f75b88-e063-49d2-8a45-cf41399a6944")
-	)
-	(wire
-		(pts
 			(xy 107.95 187.96) (xy 116.84 187.96)
 		)
 		(stroke
@@ -5180,7 +5017,7 @@
 	)
 	(wire
 		(pts
-			(xy 216.408 44.831) (xy 216.408 46.101)
+			(xy 217.17 44.45) (xy 217.17 46.101)
 		)
 		(stroke
 			(width 0)
@@ -5200,7 +5037,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 39.751) (xy 211.328 39.751)
+			(xy 207.01 39.37) (xy 212.09 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5247,16 +5084,6 @@
 			(type default)
 		)
 		(uuid "5815934b-3451-48f8-87cb-a1fbd8887f1b")
-	)
-	(wire
-		(pts
-			(xy 216.408 39.751) (xy 218.948 39.751)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5918aba7-8d03-4cc7-98d7-b71b5f84405a")
 	)
 	(wire
 		(pts
@@ -5317,6 +5144,26 @@
 			(type default)
 		)
 		(uuid "60d181a0-cbaa-464f-8119-b97bc71b9fbe")
+	)
+	(wire
+		(pts
+			(xy 161.29 74.93) (xy 166.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611f9a1d-b8f3-4dfc-b1ca-efa4963cb273")
+	)
+	(wire
+		(pts
+			(xy 158.75 67.31) (xy 166.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6129df74-3819-4e49-8642-b34e4807e33e")
 	)
 	(wire
 		(pts
@@ -5460,7 +5307,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.868 46.101) (xy 211.328 46.101)
+			(xy 213.868 46.101) (xy 212.09 46.101)
 		)
 		(stroke
 			(width 0)
@@ -5530,7 +5377,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.568 37.211) (xy 226.568 39.751)
+			(xy 226.568 36.83) (xy 226.568 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5600,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.568 39.751) (xy 235.458 39.751)
+			(xy 226.568 39.37) (xy 234.95 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5740,7 +5587,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 34.671) (xy 212.598 34.671)
+			(xy 123.19 199.39) (xy 123.19 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbb417a-b5fd-4cad-a3ed-0b222e93e23b")
+	)
+	(wire
+		(pts
+			(xy 207.01 34.29) (xy 212.09 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5777,6 +5634,16 @@
 			(type default)
 		)
 		(uuid "961e4cd9-7514-4b1a-a64f-717440033712")
+	)
+	(wire
+		(pts
+			(xy 158.75 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966f8e03-337d-4dde-a97c-77a3e0a2bab1")
 	)
 	(wire
 		(pts
@@ -5837,6 +5704,16 @@
 			(type default)
 		)
 		(uuid "995bd520-082e-4346-a2f5-cf90ec8ee41f")
+	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a591ab1-0c9a-47a5-b077-3d4600dbf78e")
 	)
 	(wire
 		(pts
@@ -5910,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 87.122) (xy 222.25 88.392)
+			(xy 222.25 87.63) (xy 222.25 88.392)
 		)
 		(stroke
 			(width 0)
@@ -5930,13 +5807,13 @@
 	)
 	(wire
 		(pts
-			(xy 159.258 67.691) (xy 166.878 67.691)
+			(xy 217.17 39.37) (xy 218.44 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2a630d3-2ca4-4582-8d5a-661ffbd69a17")
+		(uuid "a2bf6c8c-74bd-4a60-9bdf-87647fab8254")
 	)
 	(wire
 		(pts
@@ -5947,6 +5824,16 @@
 			(type default)
 		)
 		(uuid "a2d5900b-3a76-439e-b0a3-8f10cb5301bc")
+	)
+	(wire
+		(pts
+			(xy 209.55 85.09) (xy 209.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4824ac0-acf9-4c3f-9eb4-474e936f649e")
 	)
 	(wire
 		(pts
@@ -5967,6 +5854,16 @@
 			(type default)
 		)
 		(uuid "a6519e0b-8dc8-4108-936b-2313cd939ede")
+	)
+	(wire
+		(pts
+			(xy 212.09 39.37) (xy 217.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7666335-8360-4b3b-80cd-b6b914f03720")
 	)
 	(wire
 		(pts
@@ -6020,7 +5917,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.008 155.067) (xy 64.008 162.56)
+			(xy 63.5 154.94) (xy 63.5 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6057,6 +5954,16 @@
 			(type default)
 		)
 		(uuid "a9aa0337-9c9b-426b-a554-cc0716dfd0f5")
+	)
+	(wire
+		(pts
+			(xy 158.75 46.99) (xy 166.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa55773-5c1c-4b31-9da9-c56b0b50538f")
 	)
 	(wire
 		(pts
@@ -6100,7 +6007,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.028 39.751) (xy 226.568 39.751)
+			(xy 223.52 39.37) (xy 226.568 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6157,16 +6064,6 @@
 			(type default)
 		)
 		(uuid "b00f033a-be4f-49f0-8bf6-d43228537400")
-	)
-	(wire
-		(pts
-			(xy 122.682 200.406) (xy 122.682 202.311)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b055d80b-2dd9-424c-a161-293528a0f341")
 	)
 	(wire
 		(pts
@@ -6238,16 +6135,6 @@
 		)
 		(uuid "b3c5f1a3-7e90-4e85-89c7-2d7c377ca1b8")
 	)
-	(wire
-		(pts
-			(xy 166.878 47.371) (xy 159.258 47.371)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f54576-d3e1-4d18-87b0-db5f6071fa49")
-	)
 	(polyline
 		(pts
 			(xy 224.536 206.756) (xy 224.536 198.374)
@@ -6267,6 +6154,16 @@
 			(type default)
 		)
 		(uuid "b6acd820-b521-4d72-b2a3-a2061a5d8485")
+	)
+	(wire
+		(pts
+			(xy 220.98 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c60573-ebaf-457d-8604-911b2e308194")
 	)
 	(wire
 		(pts
@@ -6320,6 +6217,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 58.42) (xy 220.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c2cf8e-9aaa-4df0-aecf-26459f90c41f")
+	)
+	(wire
+		(pts
 			(xy 127 160.02) (xy 135.89 160.02)
 		)
 		(stroke
@@ -6340,6 +6247,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfdb5c5-dd2d-4e9d-93d0-737a6ea7fbac")
+	)
+	(wire
+		(pts
 			(xy 107.95 173.99) (xy 121.92 173.99)
 		)
 		(stroke
@@ -6350,7 +6267,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.838 60.071) (xy 227.838 61.341)
+			(xy 228.6 59.69) (xy 228.6 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6380,6 +6297,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 31.75) (xy 212.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bb3fb3-7c5d-47ab-9c4b-0e87bbcaaa27")
+	)
+	(wire
+		(pts
 			(xy 88.9 82.55) (xy 88.9 80.01)
 		)
 		(stroke
@@ -6400,7 +6327,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.682 207.391) (xy 122.682 208.661)
+			(xy 123.19 207.01) (xy 123.19 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6420,7 +6347,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.372 154.051) (xy 55.372 156.591)
+			(xy 55.88 153.67) (xy 55.88 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6430,7 +6357,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 82.931) (xy 210.058 82.931)
+			(xy 207.01 82.55) (xy 209.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6520,7 +6447,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 72.771) (xy 216.408 72.771)
+			(xy 207.01 72.39) (xy 215.9 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6610,7 +6537,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.258 57.531) (xy 166.878 57.531)
+			(xy 158.75 57.15) (xy 166.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6620,17 +6547,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.058 82.931) (xy 210.058 85.471)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7cbdeec-1a74-459e-a857-44120791f4c1")
-	)
-	(wire
-		(pts
-			(xy 207.518 70.231) (xy 216.408 70.231)
+			(xy 207.01 69.85) (xy 215.9 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6660,7 +6577,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.838 54.991) (xy 227.838 53.721)
+			(xy 228.6 54.61) (xy 228.6 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6700,16 +6617,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.868 58.801) (xy 221.488 58.801)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b7a98c-55ba-4dee-bcba-a4e39d5d5781")
-	)
-	(wire
-		(pts
 			(xy 107.95 193.04) (xy 116.84 193.04)
 		)
 		(stroke
@@ -6730,7 +6637,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.576 34.798) (xy 163.576 42.291)
+			(xy 163.83 34.29) (xy 163.83 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6740,17 +6647,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.598 32.131) (xy 212.598 34.671)
+			(xy 55.88 161.29) (xy 55.88 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3b4860a-2c33-4d8e-bd87-60776b3b5695")
+		(uuid "e3cffe9e-a07d-43f1-bd49-dfd816b177ed")
 	)
 	(wire
 		(pts
-			(xy 207.518 58.801) (xy 208.788 58.801)
+			(xy 207.01 58.42) (xy 212.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6770,23 +6677,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.008 162.56) (xy 67.31 162.56)
+			(xy 63.5 162.56) (xy 67.31 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6862f56-1239-49c1-a09f-25950936be9c")
-	)
-	(wire
-		(pts
-			(xy 222.25 80.137) (xy 222.25 82.042)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e694c12b-8668-4074-9f65-0724c1b97584")
 	)
 	(wire
 		(pts
@@ -6810,7 +6707,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.518 53.721) (xy 221.488 53.721)
+			(xy 207.01 53.34) (xy 220.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6860,7 +6757,7 @@
 	)
 	(wire
 		(pts
-			(xy 211.328 46.101) (xy 211.328 44.831)
+			(xy 212.09 46.101) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6950,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.868 46.101) (xy 216.408 46.101)
+			(xy 213.868 46.101) (xy 217.17 46.101)
 		)
 		(stroke
 			(width 0)
@@ -7139,7 +7036,7 @@
 		(uuid "63e61774-96fa-44b1-90eb-81c0b4cf15e9")
 	)
 	(label "R0_RFI_N"
-		(at 159.258 49.911 0)
+		(at 158.75 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7149,7 +7046,7 @@
 		(uuid "6c5f2195-476f-43f1-b15a-cf1047ebecbb")
 	)
 	(label "R0_XTB"
-		(at 159.258 77.851 0)
+		(at 161.29 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7159,7 +7056,7 @@
 		(uuid "6f3e9ede-1c4b-4d80-b9c1-3c1c19230c8d")
 	)
 	(label "R0_RFO"
-		(at 235.458 39.751 180)
+		(at 234.95 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7229,7 +7126,7 @@
 		(uuid "a1751600-436b-4f5f-af87-a2b2f6fc61fb")
 	)
 	(label "R0_XTA"
-		(at 159.258 75.311 0)
+		(at 161.29 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7299,7 +7196,7 @@
 		(uuid "f90198b8-80b9-40f4-a9a8-93f987e46a22")
 	)
 	(label "R0_RFI_P"
-		(at 159.258 47.371 0)
+		(at 158.75 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7310,7 +7207,7 @@
 	)
 	(hierarchical_label "R0_DIO1"
 		(shape input)
-		(at 216.408 67.691 0)
+		(at 215.9 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7343,7 +7240,7 @@
 	)
 	(hierarchical_label "R0_DIO2"
 		(shape input)
-		(at 216.408 70.231 0)
+		(at 215.9 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7398,7 +7295,7 @@
 	)
 	(hierarchical_label "R0_DIO3"
 		(shape input)
-		(at 216.408 72.771 0)
+		(at 215.9 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7464,7 +7361,7 @@
 	)
 	(hierarchical_label "R0_BUSY"
 		(shape input)
-		(at 159.258 70.231 180)
+		(at 158.75 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7475,7 +7372,7 @@
 	)
 	(hierarchical_label "R0_NSS"
 		(shape input)
-		(at 159.258 54.991 180)
+		(at 158.75 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7552,7 +7449,7 @@
 	)
 	(hierarchical_label "R0_SCK"
 		(shape input)
-		(at 159.258 57.531 180)
+		(at 158.75 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7574,7 +7471,7 @@
 	)
 	(hierarchical_label "R0_MOSI"
 		(shape input)
-		(at 159.258 62.611 180)
+		(at 158.75 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7618,7 +7515,7 @@
 	)
 	(hierarchical_label "R0_RST"
 		(shape input)
-		(at 159.258 67.691 180)
+		(at 158.75 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7640,7 +7537,7 @@
 	)
 	(hierarchical_label "R0_MISO"
 		(shape input)
-		(at 159.258 60.071 180)
+		(at 158.75 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8573,73 +8470,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 55.372 154.051 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d7eb341-0e4f-4136-b017-a234624370e7")
-		(property "Reference" "#PWR02"
-			(at 55.372 157.861 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 55.753 149.6568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.372 154.051 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.372 154.051 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.372 154.051 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "071bee8b-c06f-465e-9f84-acac3de3b1a3")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CatSniffer-rescue:C_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 55.372 159.131 0)
+		(at 55.88 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8647,7 +8479,7 @@
 		(dnp no)
 		(uuid "1165a6ce-7698-4dbc-b1c1-274949d63614")
 		(property "Reference" "C3"
-			(at 57.7088 157.9626 0)
+			(at 58.2168 157.5816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +8488,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 57.7088 160.274 0)
+			(at 58.2168 159.893 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8497,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8524,7 @@
 			)
 		)
 		(property "LCSC#" "C56392"
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +8533,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +8542,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8551,7 @@
 			)
 		)
 		(property "Remplazos" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +8560,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8737,7 +8569,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +8578,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8587,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8596,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8605,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8614,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +8623,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8632,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,7 +8641,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +8650,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8659,7 @@
 			)
 		)
 		(property "#LCSC" "C56392"
-			(at 55.372 159.131 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,6 +9216,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 113.03 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa732dc-7afc-4d6f-8c6b-27b714941106")
+		(property "Reference" "#PWR01"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 113.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "973ca0dc-0e4b-4bee-82bb-7995d94c26b3")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 102.87 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9443,6 +9341,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 163.83 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e60de2e-f283-403d-8dce-a41c8175ed32")
+		(property "Reference" "#PWR020"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 163.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e229d6be-8792-4bbe-a640-aefdedef1783")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9889,6 +9853,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 212.09 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2744c811-629f-44dd-b6d6-41dbae984653")
+		(property "Reference" "#PWR034"
+			(at 212.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 212.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b8d06f1-010d-43a0-ad86-fb422dd38d7c")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10584,71 +10614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 113.03 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34872edc-cbd3-438c-b1de-f17cfa10996f")
-		(property "Reference" "#PWR01"
-			(at 113.03 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 113.411 145.4658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae619e98-6a22-42a5-a17a-3bfef9de1dbf")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CatSniffer-rescue:GND-power-CatStick-rescue-CatSniffer-rescue")
 		(at 349.758 72.263 0)
 		(mirror y)
@@ -10774,6 +10739,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 154.94 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec3c940-3146-467c-93df-77948e8bb2a9")
+		(property "Reference" "#PWR033"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 154.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3abdff7e-86e6-474e-9e05-b38aafb6dee1")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11034,7 +11065,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:L_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 211.328 58.801 90)
+		(at 214.63 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11042,7 +11073,7 @@
 		(dnp no)
 		(uuid "48157143-89cc-4c12-9286-c4d0cf5bc689")
 		(property "Reference" "L7"
-			(at 211.328 56.642 90)
+			(at 214.63 56.261 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11050,7 +11081,7 @@
 			)
 		)
 		(property "Value" "15uH"
-			(at 211.582 60.071 90)
+			(at 214.884 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +11089,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 211.328 58.801 0)
+			(at 214.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11098,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-SDFL1608T150KTF_C57838.pdf"
-			(at 211.328 58.801 0)
+			(at 214.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,7 +11107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.328 58.801 0)
+			(at 214.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11085,7 +11116,7 @@
 			)
 		)
 		(property "LCSC#" "C57838"
-			(at 211.328 58.801 0)
+			(at 214.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,7 +11125,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 211.328 58.801 0)
+			(at 214.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,7 +11134,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 211.328 58.801 0)
+			(at 214.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +11143,7 @@
 			)
 		)
 		(property "Remplazos" "C2885870"
-			(at 211.328 58.801 0)
+			(at 214.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,7 +11152,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +11161,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11139,7 +11170,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11148,7 +11179,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +11188,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11197,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11175,7 +11206,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +11215,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,7 +11224,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11233,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +11242,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11220,7 +11251,7 @@
 			)
 		)
 		(property "#LCSC" "C57838"
-			(at 211.328 58.801 90)
+			(at 214.63 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,7 +11276,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:GND-power-CatStick-rescue-CatSniffer-rescue")
-		(at 210.058 88.011 0)
+		(at 209.55 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11253,7 +11284,7 @@
 		(dnp no)
 		(uuid "4b67be3a-a87e-43a4-ad23-6d7b9c353e4c")
 		(property "Reference" "#PWR0109"
-			(at 210.058 94.361 0)
+			(at 209.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,7 +11293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.185 92.4052 0)
+			(at 209.677 92.0242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.058 88.011 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.058 88.011 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11319,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.058 88.011 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,71 +11837,6 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 212.598 29.591 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55cd8275-57a7-42b1-9b2d-d2b2feff96ff")
-		(property "Reference" "#PWR0110"
-			(at 212.598 33.401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 212.979 25.1968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.598 29.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.598 29.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.598 29.591 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33c8d3c4-5bd6-4302-9b2f-a88fbad376e3")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -12430,6 +12396,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 55.88 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63d0f4ab-a6c4-4046-a6ec-1dd0848c5ea0")
+		(property "Reference" "#PWR02"
+			(at 55.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2fab67f-ff61-4fbb-ad0f-5fa28d3d2b08")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13378,7 +13410,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:GND-power-CatStick-rescue-CatSniffer-rescue")
-		(at 55.372 163.449 0)
+		(at 55.88 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13386,7 +13418,7 @@
 		(dnp no)
 		(uuid "7f7b0edd-6467-4856-890e-34ab21d44f41")
 		(property "Reference" "#PWR04"
-			(at 55.372 169.799 0)
+			(at 55.88 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.499 167.8432 0)
+			(at 56.007 168.2242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.372 163.449 0)
+			(at 55.88 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.372 163.449 0)
+			(at 55.88 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13421,7 +13453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.372 163.449 0)
+			(at 55.88 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13443,7 +13475,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:C_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 122.682 204.851 0)
+		(at 123.19 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13451,7 +13483,7 @@
 		(dnp no)
 		(uuid "8103a568-d6b6-4458-8f47-c7c936ab32ea")
 		(property "Reference" "C14"
-			(at 123.317 203.454 0)
+			(at 123.825 203.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13460,7 +13492,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 123.317 207.264 0)
+			(at 123.825 206.883 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13469,7 +13501,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13478,7 +13510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13487,7 +13519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13496,7 +13528,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13505,7 +13537,7 @@
 			)
 		)
 		(property "LCSC#" "C56392"
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,7 +13546,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,7 +13555,7 @@
 			)
 		)
 		(property "Remplazos" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13532,7 +13564,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,7 +13573,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,7 +13582,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13591,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13568,7 +13600,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13577,7 +13609,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13586,7 +13618,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13595,7 +13627,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13604,7 +13636,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13613,7 +13645,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13622,7 +13654,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13631,7 +13663,7 @@
 			)
 		)
 		(property "#LCSC" "C56392"
-			(at 122.682 204.851 0)
+			(at 123.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14742,7 +14774,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:C_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 227.838 57.531 0)
+		(at 228.6 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14750,7 +14782,7 @@
 		(dnp no)
 		(uuid "8dbad3e3-c20e-403f-9759-fcf04ebd9cd2")
 		(property "Reference" "C43"
-			(at 230.1748 56.3626 0)
+			(at 230.9368 55.9816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14759,7 +14791,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 230.1748 58.674 0)
+			(at 230.9368 58.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14768,7 +14800,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14777,7 +14809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,7 +14818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14795,7 +14827,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,7 +14836,7 @@
 			)
 		)
 		(property "LCSC#" "C47339"
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14813,7 +14845,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14822,7 +14854,7 @@
 			)
 		)
 		(property "Remplazos" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14831,7 +14863,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14840,7 +14872,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14849,7 +14881,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14858,7 +14890,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14867,7 +14899,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14876,7 +14908,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14885,7 +14917,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14894,7 +14926,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +14935,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14912,7 +14944,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,7 +14953,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14930,7 +14962,7 @@
 			)
 		)
 		(property "#LCSC" "C47339"
-			(at 227.838 57.531 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15167,136 +15199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 154.94 33.782 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f9007c3-6ccd-464b-9d76-c079f1252cda")
-		(property "Reference" "#PWR020"
-			(at 154.94 37.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 155.321 29.3878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d17280f-91a7-4772-94c1-2b9c12ece2e9")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 64.008 155.067 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "924b148f-584c-45f7-8547-f61650fb1f2d")
-		(property "Reference" "#PWR03"
-			(at 64.008 158.877 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 64.389 150.6728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.008 155.067 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.008 155.067 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.008 155.067 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad67a1be-2644-4bb1-b101-5fe870f66523")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CatSniffer-rescue:GND-power-CatStick-rescue-CatSniffer-rescue")
 		(at 150.622 187.198 0)
 		(unit 1)
@@ -15356,71 +15258,6 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 163.576 34.798 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f1cdf12-8c8e-49b7-bf65-e8dd48e453cd")
-		(property "Reference" "#PWR0106"
-			(at 163.576 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 163.957 30.4038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.576 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.576 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.576 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7aea79f-2af4-411f-aef7-e02c3691447d")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -15640,7 +15477,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:C_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 216.408 42.291 0)
+		(at 217.17 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15648,7 +15485,7 @@
 		(dnp no)
 		(uuid "a309f7df-8320-480e-9f11-4304a71a2ce2")
 		(property "Reference" "C11"
-			(at 218.948 42.291 0)
+			(at 219.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15657,7 +15494,7 @@
 			)
 		)
 		(property "Value" "47pF"
-			(at 218.948 44.831 0)
+			(at 219.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15666,7 +15503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15675,7 +15512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15684,7 +15521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15693,7 +15530,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15702,7 +15539,7 @@
 			)
 		)
 		(property "LCSC#" "C437519"
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15711,7 +15548,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15720,7 +15557,7 @@
 			)
 		)
 		(property "Remplazos" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15729,7 +15566,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15738,7 +15575,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15747,7 +15584,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15756,7 +15593,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15765,7 +15602,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15774,7 +15611,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15783,7 +15620,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15792,7 +15629,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15801,7 +15638,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15810,7 +15647,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15819,7 +15656,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +15665,7 @@
 			)
 		)
 		(property "#LCSC" "C437519"
-			(at 216.408 42.291 0)
+			(at 217.17 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16841,71 +16678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 122.682 200.406 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9a24ebf-ec25-4d47-862e-08facaaa2bb6")
-		(property "Reference" "#PWR013"
-			(at 122.682 204.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 123.063 196.0118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.682 200.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 122.682 200.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 122.682 200.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bfe39a9-f6f8-4cd9-b0ee-3209666017cf")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CatSniffer-rescue:C-Device-CatStick-rescue-CatSniffer-rescue")
 		(at 380.111 36.068 0)
 		(unit 1)
@@ -17407,7 +17179,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:C_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 222.25 84.582 0)
+		(at 222.25 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17415,7 +17187,7 @@
 		(dnp no)
 		(uuid "b0ddbb03-7ddd-44f9-a676-99a95e8d7cda")
 		(property "Reference" "C13"
-			(at 222.885 83.185 0)
+			(at 222.885 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17424,7 +17196,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 222.885 86.995 0)
+			(at 222.885 87.503 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17433,7 +17205,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,7 +17214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,7 +17223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,7 +17232,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17469,7 +17241,7 @@
 			)
 		)
 		(property "LCSC#" "C56392"
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17478,7 +17250,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17487,7 +17259,7 @@
 			)
 		)
 		(property "Remplazos" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17496,7 +17268,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17505,7 +17277,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17514,7 +17286,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17523,7 +17295,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17532,7 +17304,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17541,7 +17313,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17550,7 +17322,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17559,7 +17331,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +17340,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17577,7 +17349,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17586,7 +17358,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17595,7 +17367,7 @@
 			)
 		)
 		(property "#LCSC" "C56392"
-			(at 222.25 84.582 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17613,6 +17385,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b42cf5f7-d477-42f9-9cb1-521ea8edd603")
+		(property "Reference" "#PWR03"
+			(at 63.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b234402-5b2c-4587-adcb-8548c70c7b33")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18046,7 +17884,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:GND-power-CatStick-rescue-CatSniffer-rescue")
-		(at 122.682 208.661 0)
+		(at 123.19 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18054,7 +17892,7 @@
 		(dnp no)
 		(uuid "c9f0c3c0-7d4c-48d8-ac0a-5a48c9c8fa4d")
 		(property "Reference" "#PWR024"
-			(at 122.682 215.011 0)
+			(at 123.19 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18063,7 +17901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.682 213.106 0)
+			(at 123.19 212.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18071,7 +17909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.682 208.661 0)
+			(at 123.19 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18080,7 +17918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.682 208.661 0)
+			(at 123.19 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18089,7 +17927,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.682 208.661 0)
+			(at 123.19 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18391,7 +18229,7 @@
 	)
 	(symbol
 		(lib_id "SX1262IMLTRT:SX1262IMLTRT")
-		(at 187.198 57.531 0)
+		(at 186.69 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18399,7 +18237,7 @@
 		(dnp no)
 		(uuid "cf207aa9-ca16-4894-b0e3-b822e051aed5")
 		(property "Reference" "U12"
-			(at 187.198 25.3492 0)
+			(at 186.69 24.9682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18407,7 +18245,7 @@
 			)
 		)
 		(property "Value" "SX1262IMLTRT"
-			(at 187.198 27.6606 0)
+			(at 186.69 27.2796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18415,7 +18253,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm"
-			(at 187.198 61.341 0)
+			(at 186.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18425,7 +18263,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.mx/datasheet/2/761/SEMT_S_A0008596633_1-2575829.pdf"
-			(at 187.198 61.341 0)
+			(at 186.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18435,7 +18273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18444,7 +18282,7 @@
 			)
 		)
 		(property "Mouser#" "947-SX1262IMLTRT "
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18453,7 +18291,7 @@
 			)
 		)
 		(property "manf#" "SX1262IMLTRT "
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18462,7 +18300,7 @@
 			)
 		)
 		(property "provedor" "Mouser"
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18471,7 +18309,7 @@
 			)
 		)
 		(property "Remplazos" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +18318,7 @@
 			)
 		)
 		(property "LCSC#" "C191341"
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18489,7 +18327,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18498,7 +18336,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18507,7 +18345,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18516,7 +18354,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18525,7 +18363,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18534,7 +18372,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18543,7 +18381,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18552,7 +18390,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18561,7 +18399,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18570,7 +18408,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18579,7 +18417,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18588,7 +18426,7 @@
 			)
 		)
 		(property "#LCSC" "C191341"
-			(at 187.198 57.531 0)
+			(at 186.69 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,7 +18520,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:L_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 221.488 39.751 90)
+		(at 220.98 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18690,7 +18528,7 @@
 		(dnp no)
 		(uuid "d05408df-a465-4d80-ae43-0ef667ccf582")
 		(property "Reference" "L4"
-			(at 218.948 38.481 90)
+			(at 218.44 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18699,7 +18537,7 @@
 			)
 		)
 		(property "Value" "47nH"
-			(at 224.028 41.021 90)
+			(at 223.52 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18708,7 +18546,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 221.488 39.751 0)
+			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18717,7 +18555,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006221409_Yanchuang-SCHF160808H47NJT_C578001.pdf"
-			(at 221.488 39.751 0)
+			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18726,7 +18564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 221.488 39.751 0)
+			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18735,7 +18573,7 @@
 			)
 		)
 		(property "LCSC#" "C578001"
-			(at 221.488 39.751 0)
+			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18744,7 +18582,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 221.488 39.751 0)
+			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18753,7 +18591,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 221.488 39.751 0)
+			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18762,7 +18600,7 @@
 			)
 		)
 		(property "Remplazos" "C90210"
-			(at 221.488 39.751 0)
+			(at 220.98 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18771,7 +18609,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18780,7 +18618,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18789,7 +18627,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18798,7 +18636,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18807,7 +18645,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18816,7 +18654,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18825,7 +18663,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18834,7 +18672,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18843,7 +18681,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18852,7 +18690,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18861,7 +18699,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18870,7 +18708,7 @@
 			)
 		)
 		(property "#LCSC" "C578001"
-			(at 221.488 39.751 90)
+			(at 220.98 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18961,7 +18799,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:GND-power-CatStick-rescue-CatSniffer-rescue")
-		(at 227.838 61.341 0)
+		(at 228.6 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18969,7 +18807,7 @@
 		(dnp no)
 		(uuid "d4851257-d28c-4d24-90a4-a5d979ffefac")
 		(property "Reference" "#PWR022"
-			(at 227.838 67.691 0)
+			(at 228.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18978,7 +18816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 60.579 0)
+			(at 225.552 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18986,7 +18824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.838 61.341 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18995,7 +18833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.838 61.341 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19004,7 +18842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.838 61.341 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19019,6 +18857,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 123.19 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5aab30a-995a-42af-90ef-883ac7265181")
+		(property "Reference" "#PWR013"
+			(at 123.19 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 123.19 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228b8214-d653-4ce3-a7d4-c3cb9ff09e74")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -19296,71 +19200,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CatSniffer-rescue:+3V3-power-CatStick-rescue-CatSniffer-rescue")
-		(at 222.25 80.137 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df2631fc-1e13-475b-8f84-a72e1e4d1d4a")
-		(property "Reference" "#PWR021"
-			(at 222.25 83.947 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 222.631 75.7428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 80.137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 80.137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 80.137 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72297ec9-63ee-41f0-bd35-b547b78a7363")
-		)
-		(instances
-			(project "Sensor_Board"
-				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CatSniffer-rescue:GND-power-CatStick-rescue-CatSniffer-rescue")
 		(at 219.456 184.658 0)
 		(mirror y)
@@ -19421,6 +19260,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 222.25 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e97ce402-08c5-4894-aa8b-ef330d5e6657")
+		(property "Reference" "#PWR021"
+			(at 222.25 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 222.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "212b4527-5a4d-473c-a20f-4c1ac5e0512d")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -19647,7 +19552,7 @@
 	)
 	(symbol
 		(lib_id "CatSniffer-rescue:C_Small-Device-CatStick-rescue-CatSniffer-rescue")
-		(at 211.328 42.291 0)
+		(at 212.09 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19655,7 +19560,7 @@
 		(dnp no)
 		(uuid "ef761dd9-d38b-4741-af35-b80342e5f40b")
 		(property "Reference" "C10"
-			(at 204.978 42.291 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19664,7 +19569,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 204.978 44.831 0)
+			(at 205.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19673,7 +19578,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19682,7 +19587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19691,7 +19596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19700,7 +19605,7 @@
 			)
 		)
 		(property "LCSC#" "C56392"
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19709,7 +19614,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19718,7 +19623,7 @@
 			)
 		)
 		(property "provedor" "LCSC"
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19727,7 +19632,7 @@
 			)
 		)
 		(property "Remplazos" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19736,7 +19641,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19745,7 +19650,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19754,7 +19659,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19763,7 +19668,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19772,7 +19677,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19781,7 +19686,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19790,7 +19695,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19799,7 +19704,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19808,7 +19713,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19817,7 +19722,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19826,7 +19731,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19835,7 +19740,7 @@
 			)
 		)
 		(property "#LCSC" "C56392"
-			(at 211.328 42.291 0)
+			(at 212.09 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
