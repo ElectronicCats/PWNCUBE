@@ -1520,6 +1520,14 @@
 		(uuid "a554e93a-f0ec-41d8-a472-c7f45bb66ae1")
 	)
 	(no_connect
+		(at 77.47 66.04)
+		(uuid "a55a525d-094b-421c-aed3-95204399f54b")
+	)
+	(no_connect
+		(at 90.17 63.5)
+		(uuid "c6507524-5e75-432c-9c44-6850a746091b")
+	)
+	(no_connect
 		(at 90.17 73.66)
 		(uuid "d540bff4-accd-4149-8c27-e90997686de3")
 	)
@@ -1575,16 +1583,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 63.5) (xy 90.17 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "091b0586-76cc-4401-8bd9-f476a6114429")
-	)
-	(wire
-		(pts
 			(xy 99.06 76.2) (xy 90.17 76.2)
 		)
 		(stroke
@@ -1632,16 +1630,6 @@
 			(type default)
 		)
 		(uuid "2c790c03-d2da-4eef-97c2-f496824178b9")
-	)
-	(wire
-		(pts
-			(xy 69.85 66.04) (xy 77.47 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36425bde-943f-4644-b562-e68f131b204f")
 	)
 	(wire
 		(pts
@@ -1973,6 +1961,17 @@
 		)
 		(uuid "fd970a14-18b5-4dc8-ae55-67cf0e0c3361")
 	)
+	(hierarchical_label "SCL_SENS"
+		(shape output)
+		(at 99.06 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13899fe5-836d-493a-b3d5-43ade7890c21")
+	)
 	(hierarchical_label "R0_DIO1"
 		(shape input)
 		(at 69.85 45.72 180)
@@ -2027,17 +2026,6 @@
 			(justify left)
 		)
 		(uuid "32699645-e051-4c8f-8465-7224eda565db")
-	)
-	(hierarchical_label "SDA_BME280"
-		(shape bidirectional)
-		(at 99.06 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3358336b-175f-4bb3-b355-f7ec11feb115")
 	)
 	(hierarchical_label "FSYNC"
 		(shape output)
@@ -2182,27 +2170,16 @@
 		)
 		(uuid "9680f373-ad2e-45ad-a8e2-011a08bb42b2")
 	)
-	(hierarchical_label "SCL_ICM"
-		(shape output)
-		(at 69.85 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a73780eb-8e04-4303-9740-71e8b8a5e6a6")
-	)
-	(hierarchical_label "SDA_ICM"
+	(hierarchical_label "SDA_SENS"
 		(shape bidirectional)
-		(at 99.06 63.5 0)
+		(at 99.06 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b19dc663-9934-46b4-b848-fdeb9652731c")
+		(uuid "96e05364-e00e-4759-906c-bb23a0bf1502")
 	)
 	(hierarchical_label "INT1"
 		(shape output)
@@ -2280,17 +2257,6 @@
 			(justify right)
 		)
 		(uuid "ea856d9a-e8d9-4c29-b887-10d9b08cb17a")
-	)
-	(hierarchical_label "SCL_BME280"
-		(shape output)
-		(at 99.06 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0319be4-7cb3-4cd7-9900-9fcef07a5bfe")
 	)
 	(hierarchical_label "R1_RST"
 		(shape input)

@@ -704,29 +704,9 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_BME280" output
-			(at 278.13 111.76 180)
-			(uuid "4551781f-bf2d-4dc2-a0ec-568746417364")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "R0_SCK" input
 			(at 278.13 114.3 180)
 			(uuid "6c8931a8-4ffa-468b-bf8e-6486fc3a0a15")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA_ICM" bidirectional
-			(at 278.13 106.68 180)
-			(uuid "fcf615e5-4194-4585-b8e3-fcb2fa4bce83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,29 +754,9 @@
 				(justify left)
 			)
 		)
-		(pin "SCL_ICM" output
-			(at 278.13 104.14 180)
-			(uuid "1f4ddee9-37b0-44d2-926a-489988ae5145")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "R0_DIO1" input
 			(at 278.13 132.08 180)
 			(uuid "794b5543-3076-4539-9083-22097aefc642")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA_BME280" bidirectional
-			(at 278.13 109.22 180)
-			(uuid "3f968276-ca0e-45fe-95b1-387c99682053")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,6 +927,46 @@
 		(pin "R1_RST" input
 			(at 278.13 179.07 180)
 			(uuid "22ff6a15-4b79-4c93-a17b-235cc895fe48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 278.13 106.68 180)
+			(uuid "147e5514-a372-497b-9be0-773e0dc590bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_SENS" bidirectional
+			(at 278.13 109.22 180)
+			(uuid "b727efb8-65d9-4660-99b1-36df83d9ab2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" output
+			(at 278.13 104.14 180)
+			(uuid "2ffec085-c5ba-4fdb-aadf-ebf5e200725b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_SENS" output
+			(at 278.13 111.76 180)
+			(uuid "9cb24add-084b-43fc-937b-e0e29827a027")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,46 +1379,6 @@
 				(justify right)
 			)
 		)
-		(pin "SCL_BME280" output
-			(at 198.12 111.76 0)
-			(uuid "e84c89e4-e815-4df7-a9b9-b0a48eed6a44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCL_ICM" output
-			(at 198.12 104.14 0)
-			(uuid "3eb9c15d-aed5-4d97-9b43-2271474e5c61")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA_BME280" bidirectional
-			(at 198.12 109.22 0)
-			(uuid "e9963e7f-ae27-4d99-ba70-77b3d59147c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA_ICM" bidirectional
-			(at 198.12 106.68 0)
-			(uuid "8796beaf-97f4-4eb0-8804-03027b31f2b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "AP_ADO" output
 			(at 198.12 142.24 0)
 			(uuid "ad44708c-9394-47db-80e0-16f1d6207792")
@@ -1612,6 +1572,46 @@
 		(pin "R1_DIO3" input
 			(at 198.12 166.37 0)
 			(uuid "9c4f82dd-5170-4946-a912-9d5ec9bf693a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL_SENS" output
+			(at 198.12 111.76 0)
+			(uuid "7c9a5853-ca63-4200-b59e-404cc1366497")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 198.12 106.68 0)
+			(uuid "aa61d833-bf3f-4a75-8d38-f0ac5aa2e14d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA_SENS" bidirectional
+			(at 198.12 109.22 0)
+			(uuid "ef3463da-1e48-4faf-bfbc-a550274e974b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 198.12 104.14 0)
+			(uuid "19f83e0a-2182-4b73-8ea2-5f180b866db5")
 			(effects
 				(font
 					(size 1.27 1.27)

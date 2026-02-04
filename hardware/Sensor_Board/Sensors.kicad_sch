@@ -3914,12 +3914,6 @@
 		(uuid "4b3395fe-c790-4a61-8c77-0fc4bead7751")
 	)
 	(junction
-		(at 29.21 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508d8c6b-635a-4823-9711-6383dd59c621")
-	)
-	(junction
 		(at 66.04 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4687,7 +4681,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 105.41) (xy 106.68 105.41)
+			(xy 101.6 105.41) (xy 128.27 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6337,6 +6331,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 97.79) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f87c0b-2696-47eb-b7d9-13d8b0399a36")
+	)
+	(wire
+		(pts
 			(xy 150.622 167.767) (xy 150.622 174.371)
 		)
 		(stroke
@@ -6927,16 +6931,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 99.06) (xy 29.21 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2cb035-8994-45fe-a4f2-40e911150ddf")
-	)
-	(wire
-		(pts
 			(xy 44.45 40.64) (xy 49.53 40.64)
 		)
 		(stroke
@@ -6984,16 +6978,6 @@
 			(justify left bottom)
 		)
 		(uuid "16dec8f4-ba70-4938-b29f-aab0d7247af6")
-	)
-	(label "CSB"
-		(at 106.68 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2922db1e-05d2-4d92-897e-62742ebe651e")
 	)
 	(label "R1_XTA"
 		(at 158.369 179.451 0)
@@ -7114,16 +7098,6 @@
 			(justify right bottom)
 		)
 		(uuid "a1455e31-a36c-4933-8d54-63b26d230961")
-	)
-	(label "CSB"
-		(at 21.59 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1751600-436b-4f5f-af87-a2b2f6fc61fb")
 	)
 	(label "R0_XTA"
 		(at 161.29 74.93 0)
@@ -19260,6 +19234,72 @@
 			(project "Sensor_Board"
 				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5a175a7-b7a5-49c5-9303-f796f9847637")
+		(property "Reference" "#PWR035"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5116f64-3649-4b48-a91f-f440b9f8e7e2")
+		)
+		(instances
+			(project "Sensor_Board"
+				(path "/671dafcd-6579-4545-95ba-aa32d81f1541/f9364cb8-a9bf-45cb-96b8-f5c6300f110d"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
