@@ -1513,8 +1513,16 @@
 		(uuid "79c89d2b-a2b1-4b3f-ab92-f2576d1ee2b4")
 	)
 	(no_connect
+		(at 73.66 66.04)
+		(uuid "7fc14e53-0f62-4126-a0e6-66f16f15f505")
+	)
+	(no_connect
 		(at 73.66 73.66)
 		(uuid "a0b4eda0-6d13-4b43-a74f-bf424b7dc411")
+	)
+	(no_connect
+		(at 53.34 68.58)
+		(uuid "e0fcaaaf-ba0b-4797-abf4-bed5bd05073e")
 	)
 	(wire
 		(pts
@@ -1898,16 +1906,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 73.66 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0b3ac77-ff6b-441a-9158-9427c68ed154")
-	)
-	(wire
-		(pts
 			(xy 53.34 53.34) (xy 60.96 53.34)
 		)
 		(stroke
@@ -1990,28 +1988,6 @@
 		)
 		(uuid "17824587-b89a-40ba-80f6-cc6dcc215a9a")
 	)
-	(hierarchical_label "SDA_BME280"
-		(shape bidirectional)
-		(at 82.55 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e67e103-b1c7-4666-b227-e86fbc5b821b")
-	)
-	(hierarchical_label "SCL_BME280"
-		(shape output)
-		(at 82.55 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "214983f3-50f9-4368-8655-0db5de2f6b2b")
-	)
 	(hierarchical_label "DIO23"
 		(shape input)
 		(at 53.34 66.04 180)
@@ -2066,6 +2042,17 @@
 			(justify right)
 		)
 		(uuid "32c5451d-b7fb-4264-aa4b-c30951fc4968")
+	)
+	(hierarchical_label "SDA_SENS"
+		(shape bidirectional)
+		(at 82.55 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "421701ed-51de-47dd-a23f-95684c638c9f")
 	)
 	(hierarchical_label "R0_MISO"
 		(shape input)
@@ -2155,17 +2142,6 @@
 		)
 		(uuid "87651276-fa08-4a42-bfeb-8d0484dd468b")
 	)
-	(hierarchical_label "SDA_ICM"
-		(shape bidirectional)
-		(at 82.55 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2c13c13-cf46-4bac-9415-d42374971cbd")
-	)
 	(hierarchical_label "R0_NSS"
 		(shape input)
 		(at 82.55 50.8 0)
@@ -2176,17 +2152,6 @@
 			(justify left)
 		)
 		(uuid "a41e904e-4e01-4311-8bcd-c45737e36a2b")
-	)
-	(hierarchical_label "SCL_ICM"
-		(shape output)
-		(at 53.34 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a720fa9e-86bb-4698-94f1-f1ba6c6efc4d")
 	)
 	(hierarchical_label "R0_MOSI"
 		(shape input)
@@ -2275,6 +2240,17 @@
 			(justify right)
 		)
 		(uuid "edbafc03-afbc-43e2-87af-d96fb323d565")
+	)
+	(hierarchical_label "SCL_SENS"
+		(shape output)
+		(at 82.55 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f18876fe-3b40-4870-a561-2ed068630147")
 	)
 	(hierarchical_label "R1_MISO"
 		(shape input)

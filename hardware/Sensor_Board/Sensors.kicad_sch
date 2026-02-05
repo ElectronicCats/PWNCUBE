@@ -7190,17 +7190,6 @@
 		)
 		(uuid "010285e6-8da6-4b88-9c55-6a41742c35b3")
 	)
-	(hierarchical_label "SDA_BME280"
-		(shape bidirectional)
-		(at 40.64 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05686705-b929-4ead-a300-9ea93892f920")
-	)
 	(hierarchical_label "R1_ANT_SW"
 		(shape input)
 		(at 287.782 175.006 0)
@@ -7223,18 +7212,7 @@
 		)
 		(uuid "1088306f-1ba0-451c-9242-431be6692638")
 	)
-	(hierarchical_label "SCL_BME280"
-		(shape output)
-		(at 40.64 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14c352f3-0a21-4b5d-aedf-f129ba08a842")
-	)
-	(hierarchical_label "SDA_ICM"
+	(hierarchical_label "SDA_SENS"
 		(shape bidirectional)
 		(at 91.44 48.26 0)
 		(effects
@@ -7289,6 +7267,17 @@
 		)
 		(uuid "37393260-c192-49fd-995d-9cccd5dca9d1")
 	)
+	(hierarchical_label "SCL_SENS"
+		(shape output)
+		(at 40.64 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "445da2ff-84fd-4ae0-9119-5f465caa5cbd")
+	)
 	(hierarchical_label "R1_NSS"
 		(shape input)
 		(at 59.69 175.26 180)
@@ -7300,7 +7289,7 @@
 		)
 		(uuid "4542cf0f-383d-4e4a-b362-987a0322dbc4")
 	)
-	(hierarchical_label "SCL_BME280"
+	(hierarchical_label "SCL_SENS"
 		(shape output)
 		(at 105.41 95.25 0)
 		(effects
@@ -7355,7 +7344,7 @@
 		)
 		(uuid "6870ffae-f390-46e4-9857-83f799542177")
 	)
-	(hierarchical_label "SDA_BME280"
+	(hierarchical_label "SDA_SENS"
 		(shape bidirectional)
 		(at 105.41 100.33 0)
 		(effects
@@ -7454,7 +7443,7 @@
 		)
 		(uuid "b7753a80-b5ca-427a-879a-7b96dc4ddc07")
 	)
-	(hierarchical_label "SCL_ICM"
+	(hierarchical_label "SCL_SENS"
 		(shape output)
 		(at 91.44 45.72 0)
 		(effects
@@ -7530,6 +7519,17 @@
 			(justify right)
 		)
 		(uuid "e4688419-6c3d-4a23-bd07-7faa3e106858")
+	)
+	(hierarchical_label "SDA_SENS"
+		(shape bidirectional)
+		(at 40.64 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f41118ad-5c71-4500-9b94-93bbd523fb8b")
 	)
 	(hierarchical_label "R1_MOSI"
 		(shape input)
