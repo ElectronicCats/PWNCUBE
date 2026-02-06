@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "671dafcd-6579-4545-95ba-aa32d81f1541")
 	(paper "A4")
+	(title_block
+		(title "Sensor_Board")
+		(date "2026-02-06")
+		(rev "1.0")
+		(company "Electronic Cats")
+		(comment 1 "Edgar Capuchino")
+	)
 	(lib_symbols)
 	(wire
 		(pts
