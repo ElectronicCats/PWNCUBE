@@ -2450,6 +2450,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C7501249"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "f15fc048-d154-41f4-9250-7bea14012078")
 		)

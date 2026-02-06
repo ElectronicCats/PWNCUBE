@@ -8227,7 +8227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 349.758 68.199 0)
 			(effects
 				(font
@@ -8461,7 +8461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 58.2168 159.893 0)
 			(effects
 				(font
@@ -11071,7 +11071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-SDFL1608T150KTF_C57838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2885870.pdf"
 			(at 214.63 58.42 0)
 			(effects
 				(font
@@ -11089,7 +11089,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C57838"
+		(property "LCSC#" "C2885870"
 			(at 214.63 58.42 0)
 			(effects
 				(font
@@ -11880,7 +11880,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 271.272 177.038 0)
 			(effects
 				(font
@@ -12225,7 +12225,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 258.318 192.659 0)
 			(effects
 				(font
@@ -12656,7 +12656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 157.2768 40.005 0)
 			(effects
 				(font
@@ -13465,7 +13465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 123.825 206.883 0)
 			(effects
 				(font
@@ -14111,7 +14111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -14297,7 +14297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 86.36 0)
 			(effects
 				(font
@@ -14723,6 +14723,15 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C170151"
 			(at 26.67 34.29 0)
 			(effects
 				(font
@@ -15958,7 +15967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 105.41 165.1 0)
 			(effects
 				(font
@@ -17169,7 +17178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 222.885 87.503 0)
 			(effects
 				(font
@@ -17985,7 +17994,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 362.712 52.578 0)
 			(effects
 				(font
@@ -19608,7 +19617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 205.74 45.72 0)
 			(effects
 				(font
@@ -20785,7 +20794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 16.51 34.29 0)
 			(effects
 				(font
@@ -20969,7 +20978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-SDFL1608T150KTF_C57838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2885870.pdf"
 			(at 111.76 179.07 0)
 			(effects
 				(font
@@ -20987,7 +20996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C57838"
+		(property "LCSC#" "C2885870"
 			(at 111.76 179.07 0)
 			(effects
 				(font
