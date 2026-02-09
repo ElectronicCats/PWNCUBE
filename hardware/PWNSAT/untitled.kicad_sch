@@ -17271,6 +17271,24 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C728568"
+			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0bff80c5-57b1-4724-8fe1-af787f569989")
 		)
@@ -17357,7 +17375,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM1555C2A180GA01D"
+		(property "Mnfr#" ""
 			(at 69.85 111.76 0)
 			(effects
 				(font
@@ -17532,6 +17550,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 69.85 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 69.85 111.76 90)
 			(effects
 				(font
@@ -17904,7 +17931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 77.47 140.97 90)
 			(effects
 				(font
@@ -17923,6 +17950,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 77.47 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 77.47 140.97 90)
 			(effects
 				(font
@@ -18110,6 +18146,15 @@
 			)
 		)
 		(property "#LCSC" "C400631"
+			(at 99.06 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 99.06 259.08 0)
 			(effects
 				(font
@@ -18387,6 +18432,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 86.36 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8d672f1-ea8f-4252-b342-b2032028aed9")
 		)
@@ -18647,6 +18701,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 209.55 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fa06eb3-ca16-4b22-af41-96c57e282f3b")
 		)
@@ -18863,7 +18926,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM1555C2A180GA01D"
+		(property "Mnfr#" ""
 			(at 69.85 101.6 0)
 			(effects
 				(font
@@ -19038,6 +19101,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 69.85 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 69.85 101.6 90)
 			(effects
 				(font
@@ -19242,6 +19314,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 153.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 153.67 156.21 0)
 			(effects
 				(font
@@ -20088,6 +20169,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 289.56 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64285dcf-44bc-4bb6-8cbd-a92a2bc5c0b2")
 		)
@@ -20349,6 +20439,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 248.92 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 248.92 264.16 0)
 			(effects
 				(font
@@ -20630,6 +20729,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 71.12 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 71.12 140.97 90)
 			(effects
 				(font
@@ -20936,7 +21044,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 68.58 77.47 90)
 			(effects
 				(font
@@ -20955,6 +21063,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 68.58 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 68.58 77.47 90)
 			(effects
 				(font
@@ -21223,6 +21340,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 278.13 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc52342f-779e-4d13-ae9c-3c3b4459e79d")
 		)
@@ -21309,7 +21435,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM1555C2A180GA01D"
+		(property "Mnfr#" ""
 			(at 26.67 100.33 0)
 			(effects
 				(font
@@ -21484,6 +21610,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 26.67 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 26.67 100.33 90)
 			(effects
 				(font
@@ -21770,6 +21905,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46aabb0b-ced5-4c4f-a153-606dc79f95de")
 		)
@@ -22021,6 +22165,24 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 81.28 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
+			(at 81.28 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C313374"
 			(at 81.28 111.76 90)
 			(effects
 				(font
@@ -22290,6 +22452,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 66.04 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "608b6c60-79c3-4274-a03c-4675a40b3ff1")
 		)
@@ -22532,6 +22703,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 71.12 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 71.12 166.37 90)
 			(effects
 				(font
@@ -22793,6 +22973,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 132.08 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 132.08 267.97 0)
 			(effects
 				(font
@@ -23065,6 +23254,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 31.75 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 31.75 52.07 90)
 			(effects
 				(font
@@ -23529,6 +23727,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 71.12 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7293e30c-7b76-49dd-94f9-e86f803b6e1a")
 		)
@@ -23781,6 +23988,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 36.83 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 36.83 142.24 90)
 			(effects
 				(font
@@ -24088,7 +24304,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 214.63 261.62 90)
 			(effects
 				(font
@@ -24107,6 +24323,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 214.63 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 214.63 261.62 90)
 			(effects
 				(font
@@ -24310,6 +24535,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 127 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 127 69.85 90)
 			(effects
 				(font
@@ -24578,6 +24812,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 19.05 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1444334-ca5a-4f7b-8af2-106fe052b85c")
 		)
@@ -24828,6 +25071,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 73.66 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 73.66 106.68 90)
 			(effects
 				(font
@@ -25103,6 +25355,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 36.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7d0e0c3-883e-4261-9c24-11d46dfc7773")
 		)
@@ -25355,6 +25616,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 24.13 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 24.13 78.74 90)
 			(effects
 				(font
@@ -25623,6 +25893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 280.67 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1d0ebff-5e64-4cb9-90a0-3a9b1c25f6b0")
 		)
@@ -25818,6 +26097,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 44.45 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 44.45 171.45 90)
 			(effects
 				(font
@@ -26085,6 +26373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a41e485-7870-46f1-a3ca-6b98e7a29f85")
 		)
@@ -26281,6 +26578,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 314.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 314.96 55.88 0)
 			(effects
 				(font
@@ -26930,6 +27236,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 60.96 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a1e40a9-f1db-45ad-897e-b1a12c16b093")
 		)
@@ -27182,6 +27497,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 123.19 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 123.19 49.53 90)
 			(effects
 				(font
@@ -27507,6 +27831,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 62.23 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 62.23 77.47 90)
 			(effects
 				(font
@@ -27906,6 +28239,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 26.67 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f935e8f-0c1e-4863-81e2-6ef50579722f")
 		)
@@ -28224,6 +28566,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 54.61 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 54.61 54.61 90)
 			(effects
 				(font
@@ -28696,6 +29047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 31.75 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08a0d97b-3599-41ea-b222-d520a0de93d6")
 		)
@@ -28947,6 +29307,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 64.77 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 64.77 182.88 0)
 			(effects
 				(font
@@ -29254,7 +29623,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 26.67 27.94 90)
 			(effects
 				(font
@@ -29273,6 +29642,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 26.67 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 26.67 27.94 90)
 			(effects
 				(font
@@ -29615,6 +29993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 81.28 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "632aeef6-fb69-4160-a984-7a77d9023036")
 		)
@@ -29811,6 +30198,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 66.04 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 66.04 134.62 90)
 			(effects
 				(font
@@ -30071,6 +30467,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 17.78 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 17.78 78.74 90)
 			(effects
 				(font
@@ -30442,7 +30847,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 30.48 78.74 90)
 			(effects
 				(font
@@ -30461,6 +30866,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 30.48 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 30.48 78.74 90)
 			(effects
 				(font
@@ -30663,6 +31077,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 33.02 106.68 0)
 			(effects
 				(font
@@ -30904,7 +31327,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 74.93 77.47 90)
 			(effects
 				(font
@@ -30923,6 +31346,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 74.93 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 74.93 77.47 90)
 			(effects
 				(font
@@ -31110,6 +31542,15 @@
 			)
 		)
 		(property "#LCSC" "C400631"
+			(at 109.22 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 109.22 259.08 0)
 			(effects
 				(font
@@ -31395,6 +31836,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 81.28 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13f875b3-f6b1-4170-a576-2a6465f28b9f")
 		)
@@ -31628,7 +32078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 43.18 142.24 90)
 			(effects
 				(font
@@ -31647,6 +32097,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 43.18 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 43.18 142.24 90)
 			(effects
 				(font
@@ -31915,6 +32374,24 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 139.7 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C313374"
+			(at 139.7 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5eb5f77-cbe5-4735-8a33-1c73afcb529a")
 		)
@@ -32167,6 +32644,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 50.8 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 50.8 77.47 90)
 			(effects
 				(font
@@ -32436,6 +32922,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 157.48 58.42 0)
 			(effects
 				(font
@@ -33349,6 +33844,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 21.59 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66891563-bb8a-43d2-90ef-8e7e837f9be7")
 		)
@@ -33545,6 +34049,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 316.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 316.23 156.21 0)
 			(effects
 				(font
@@ -34085,7 +34598,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM1555C2A180GA01D"
+		(property "Mnfr#" ""
 			(at 26.67 113.03 0)
 			(effects
 				(font
@@ -34260,6 +34773,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 26.67 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 26.67 113.03 90)
 			(effects
 				(font
@@ -34593,6 +35115,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 57.15 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "616bb606-554d-4e75-a7e6-7e7d91aa6c4d")
 		)
@@ -34826,7 +35357,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 44.45 52.07 90)
 			(effects
 				(font
@@ -34845,6 +35376,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 44.45 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 44.45 52.07 90)
 			(effects
 				(font
@@ -35086,7 +35626,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 38.1 52.07 90)
 			(effects
 				(font
@@ -35105,6 +35645,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 38.1 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 38.1 52.07 90)
 			(effects
 				(font

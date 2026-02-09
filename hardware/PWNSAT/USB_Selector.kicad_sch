@@ -4760,6 +4760,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82f0160c-34f1-42fb-8d50-cd1c3b58130b")
 		)
@@ -4865,6 +4874,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 191.77 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 191.77 35.56 90)
 			(effects
 				(font
@@ -5121,6 +5139,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 91.44 96.52 0)
 			(effects
 				(font
@@ -5483,6 +5510,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 212.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0941eecd-b1eb-48b6-b43f-6105fd7d8190")
 		)
@@ -5572,6 +5608,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -6058,6 +6103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 68.58 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e9ce82d-a0e0-42ee-8cb2-8ca6c724fd5f")
 		)
@@ -6370,6 +6424,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "dc259a61-635d-4589-8ba9-68ebcff20390")
 		)
@@ -6632,6 +6695,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 60.96 106.68 0)
 			(effects
 				(font
@@ -6970,6 +7042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b5780ba-e875-4cba-aad4-41c4c8d88455")
 		)
@@ -7265,6 +7346,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 113.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ebe1b87-6866-4bb5-904a-855481371086")
 		)
@@ -7458,6 +7548,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bed72e3-d193-4033-acdd-8225476b21d6")
 		)
@@ -7565,6 +7664,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 226.06 44.45 0)
 			(effects
 				(font
@@ -8028,6 +8136,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 142.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "809c0d9f-4aa2-4198-aea2-cd3571565fa9")
 		)
@@ -8358,6 +8475,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e934e257-7fc9-4c4f-9bd9-1dba079cfa5e")
 		)
@@ -8607,6 +8733,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 143.51 78.74 0)
 			(effects
 				(font
@@ -8867,6 +9002,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 210.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcca62bb-53c1-4ad5-b011-046d80876497")
 		)
@@ -8954,6 +9098,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 91.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 91.44 118.11 0)
 			(effects
 				(font
@@ -9091,6 +9244,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 207.01 35.56 0)
 			(effects
 				(font
@@ -9423,6 +9585,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18732247-d5f0-4935-9074-8567b8fa7ad2")
 		)
@@ -9727,6 +9898,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -10186,6 +10366,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7103eeb2-d08f-4632-8021-1294b489ba5e")
 		)
@@ -10366,6 +10555,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 200.66 93.98 0)
 			(effects
 				(font
@@ -10776,6 +10974,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6caed266-cbe8-433f-919b-9ad99af0d63f")
 		)
@@ -11098,6 +11305,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 124.46 73.66 0)
 			(effects
 				(font

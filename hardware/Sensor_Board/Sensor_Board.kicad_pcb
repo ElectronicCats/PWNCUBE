@@ -234,6 +234,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -245,6 +246,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -440,6 +442,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -451,6 +454,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1171,6 +1175,19 @@
 				)
 			)
 		)
+		(property "LCSC#" "C170151"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44912752-d2aa-4306-a2b1-0870d3ef14d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f9364cb8-a9bf-45cb-96b8-f5c6300f110d/8c4d6923-346b-400f-912d-88f721c5ef4b")
 		(sheetname "/Sensors/")
@@ -1811,7 +1828,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2819,7 +2836,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3469,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "b4284562-c397-46a6-a11d-6597b135916a")
@@ -3818,7 +3835,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "7e00a4fc-d1cd-4d69-b714-a824caaed632")
@@ -4516,7 +4533,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "a29d9e51-2151-4675-bd4f-5a39a24b5b86")
@@ -4862,6 +4879,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4873,6 +4891,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8298,6 +8317,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8309,6 +8329,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9073,7 +9094,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-SDFL1608T150KTF_C57838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2885870.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9097,7 +9118,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C57838"
+		(property "LCSC#" "C2885870"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9442,6 +9463,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC#" "C7501249"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac984065-1785-466d-95ad-c658482f77c2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11512,7 +11546,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12634,7 +12668,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "30fc802b-aeb2-4252-97da-3ee80ca9d553")
@@ -14517,7 +14551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15350,7 +15384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16010,6 +16044,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16021,6 +16056,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18052,7 +18088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110081230_Sunlord-SDFL1608T150KTF_C57838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2885870.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18076,7 +18112,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C57838"
+		(property "LCSC#" "C2885870"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19623,7 +19659,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "088608a4-834b-4779-b538-5166bf67acc0")
@@ -20020,7 +20056,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C710873 "
+		(property "LCSC#" "C76947"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20681,7 +20717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20977,6 +21013,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20988,6 +21025,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24658,7 +24696,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "595398f4-8cd9-4d7a-8225-cbc32f58182e")

@@ -7198,7 +7198,7 @@
 		(path "/1451f59f-2b56-4011-b9cc-b834ac47899f/94a43a07-2849-4e35-af56-be9c607df2b4")
 		(sheetname "/USB/")
 		(sheetfile "USB.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -7331,6 +7331,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC#" "C7501191"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0ce76f1-5070-4aeb-b4d6-8f702f8fecb0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

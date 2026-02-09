@@ -3965,6 +3965,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "04f6cd0b-279a-43d5-932f-797ff5409557")
 		)
@@ -4300,6 +4309,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 24.13 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7140cb06-b7b7-4ef2-ae17-b5fb1b5d9937")
 		)
@@ -4525,7 +4543,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 91.44 46.99 0)
 			(effects
 				(font
@@ -4544,6 +4562,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 91.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 91.44 46.99 0)
 			(effects
 				(font
@@ -4842,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -4861,6 +4888,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 100.33 46.99 0)
 			(effects
 				(font
@@ -5121,6 +5157,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 24.13 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 24.13 101.6 90)
 			(effects
 				(font
@@ -5396,6 +5441,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 127 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4100b0b2-4b0c-4d3e-865c-d4612c5c4ae3")
 		)
@@ -5646,6 +5700,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 199.39 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db2496a7-53b4-4e00-b986-7e4a4fd7f068")
 		)
@@ -5887,6 +5950,24 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 143.51 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C854086"
+			(at 143.51 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad88a1f6-b9b3-415e-b2c0-4b909a29b587")
 		)
@@ -5985,7 +6066,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf"
+		(property "Value" "22uF"
 			(at 151.765 48.26 0)
 			(effects
 				(font
@@ -5994,7 +6075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.0952 49.53 0)
 			(effects
 				(font
@@ -6069,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM155R60J226ME11D"
+		(property "Mnfr#" ""
 			(at 151.13 45.72 0)
 			(effects
 				(font
@@ -6205,6 +6286,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 151.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 151.13 45.72 0)
 			(effects
 				(font
@@ -6465,6 +6555,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f95397c6-4ac9-410f-b7e8-66539d49e34c")
 		)
@@ -6717,6 +6816,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 135.89 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9687b35d-b675-4ba4-ac91-889ed4e9939d")
 		)
@@ -6750,7 +6858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf"
+		(property "Value" "22uF"
 			(at 207.645 97.79 0)
 			(effects
 				(font
@@ -6759,7 +6867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.9752 99.06 0)
 			(effects
 				(font
@@ -6834,7 +6942,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM155R60J226ME11D"
+		(property "Mnfr#" ""
 			(at 207.01 95.25 0)
 			(effects
 				(font
@@ -6970,6 +7078,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 207.01 95.25 0)
 			(effects
 				(font
@@ -7222,6 +7339,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -7603,6 +7729,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 140.97 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 140.97 105.41 90)
 			(effects
 				(font
@@ -8130,6 +8265,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 185.42 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 185.42 90.17 90)
 			(effects
 				(font
@@ -8780,6 +8924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 143.51 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22691632-8eaa-4d0a-b0e5-906253729861")
 		)
@@ -9040,6 +9193,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 58.42 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb9416a2-eb37-4bf8-946b-52a19c7ea023")
 		)
@@ -9073,7 +9235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf"
+		(property "Value" "22uF"
 			(at 210.185 48.26 0)
 			(effects
 				(font
@@ -9082,7 +9244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.5152 49.53 0)
 			(effects
 				(font
@@ -9157,7 +9319,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM155R60J226ME11D"
+		(property "Mnfr#" ""
 			(at 209.55 45.72 0)
 			(effects
 				(font
@@ -9293,6 +9455,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 209.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 209.55 45.72 0)
 			(effects
 				(font
@@ -9626,6 +9797,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 24.13 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "710d65b7-55b0-4ddd-bbec-4e3ffb9037ac")
 		)
@@ -9951,6 +10131,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 24.13 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cdf308c-f8ca-4716-90e1-731a9dd8c682")
 		)
@@ -10176,7 +10365,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" "C56392"
 			(at 109.22 46.99 0)
 			(effects
 				(font
@@ -10195,6 +10384,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 109.22 46.99 0)
 			(effects
 				(font
@@ -10455,6 +10653,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 24.13 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 24.13 143.51 90)
 			(effects
 				(font
@@ -10779,6 +10986,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 201.93 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af599b05-ff60-44b8-aa61-d2fb1ca9273f")
 		)
@@ -10812,7 +11028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf"
+		(property "Value" "22uF"
 			(at 149.225 96.52 0)
 			(effects
 				(font
@@ -10821,7 +11037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.5552 97.79 0)
 			(effects
 				(font
@@ -10896,7 +11112,7 @@
 				)
 			)
 		)
-		(property "Mnfr#" "GRM155R60J226ME11D"
+		(property "Mnfr#" ""
 			(at 148.59 93.98 0)
 			(effects
 				(font
@@ -11032,6 +11248,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 148.59 93.98 0)
 			(effects
 				(font
@@ -11284,6 +11509,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 194.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 194.31 45.72 0)
 			(effects
 				(font
@@ -11552,6 +11786,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 24.13 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a74f2d83-6753-404d-8b86-65f1173521cf")
 		)
@@ -11794,6 +12037,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 201.93 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 201.93 45.72 90)
 			(effects
 				(font
@@ -12134,6 +12386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 129.54 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b60130c-8e29-4f6a-a8f3-8e8e12981ef9")
 		)
@@ -12442,6 +12703,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 140.97 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 140.97 93.98 90)
 			(effects
 				(font
@@ -12782,6 +13052,15 @@
 				(hide yes)
 			)
 		)
+		(property "Proveedor" ""
+			(at 187.96 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "094a2872-8106-48de-8314-9cdb922e12cb")
 		)
@@ -13089,6 +13368,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 199.39 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 199.39 106.68 90)
 			(effects
 				(font
@@ -13611,6 +13899,15 @@
 			)
 		)
 		(property "Remplazos" ""
+			(at 58.42 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proveedor" ""
 			(at 58.42 143.51 90)
 			(effects
 				(font
