@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -513,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "mainboard_gerbers_v1.2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
