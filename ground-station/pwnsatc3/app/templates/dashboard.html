@@ -1,0 +1,84 @@
+{% extends 'core/base.html' %}
+{% set active_page = 'home' %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid gap-2 p-5">
+  {% include 'components/groundtrack.html' %}
+</div>
+
+<script src="{{ url_for('static', filename='js/socket_io.js' ) }}"></script>
+<script>
+  const socket = io.connect('http://' + document.domain + ':' + location.port);
+
+  socket.on('connect', function () {
+  });
+  let room = "tm"
+
+  socket.emit('join', { 'room': room });
+
+  socket.on('disconnect', function () {
+
+  });
+
+  socket.on('tm', function (data) {
+    let icon = "info-circle";
+    if (data.type === "weather") {
+      icon = "cloud-haze";
+    } else if (data.type === "sensors") {
+      icon = "cpu";
+    }
+    addTelemetryEvent(createTelemetryEvent(`New ${data.type} data received`, data.timestamp, data.type, icon));
+    updateRotation(parseFloat(data.pitch), parseFloat(data.roll), parseFloat(data.yaw));
+    updateSatelliteInfo({
+      "MPU_status": data.mpu_status === 0 ? "OK" : "Error",
+      "BME_status": data.bme_status === 0 ? "OK" : "Error"
+    }, "satellite-sensors");
+    updateHistoryTemperature({ "bme": data.temperature, "mpu": data.mputemp });
+    updateTableSensorInfo({
+      "BME_temperature": data.temperature,
+      "BME_pressure": data.pressure,
+      "BME_humidity": data.humidity,
+      "mpu_temperature": data.mputemp,
+      "gyroscope_x": data.gyrox,
+      "gyroscope_y": data.gyroy,
+      "gyroscope_z": data.gyroz,
+      "accelaration_x": data.accex,
+      "accelaration_y": data.accey,
+      "accelaration_z": data.accez,
+    }, "table-sensors");
+  });
+
+  socket.on('tc', function (data) {
+
+  });
+
+  socket.on('img', function (data) {
+
+  });
+
+  socket.on('test', function (data) {
+    console.log(data);
+    let icon = "info-circle";
+    if (data.type === "weather") {
+      icon = "cloud-haze";
+    }
+    addTelemetryEvent(createTelemetryEvent(`New ${data.type} data received`, data.timestamp, data.type, icon));
+  });
+
+  function setTelemetry(telemetry) {
+    let keys = Object.keys(telemetry);
+    keys.forEach((element) => {
+      document.getElementById(element).innerText = telemetry[element];
+    })
+  }
+</script>
+
+<script>
+  socket.on('orbit', function (data) {
+    updateGrountrack(data);
+    updateSatelliteInfo(data["position"]);
+  })
+</script>
+{% endblock %}

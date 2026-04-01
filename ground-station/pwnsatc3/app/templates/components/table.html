@@ -1,0 +1,24 @@
+<table class="table table-borderless table-hover table-sm table-striped table-responsive">
+  <tbody id="table-sensors">
+  </tbody>
+</table>
+
+<script>
+  function createSensorsInfoRow(key, value) {
+    let normalizedKey = key.replace(/_/g, ' ');
+    normalizedKey = normalizedKey.charAt(0).toUpperCase() + normalizedKey.slice(1);
+    let html = ` <tr>
+              <th class="text-capitalize">${normalizedKey}:</th>
+              <td>${value}</td>
+            </tr>`;
+    return html;
+  }
+
+  function updateTableSensorInfo(info, section = "table-sensors") {
+    let table = document.getElementById(section);
+    table.innerHTML = "";
+    for (const [key, value] of Object.entries(info)) {
+      table.insertAdjacentHTML('beforeend', createSensorsInfoRow(key, value));
+    }
+  }
+</script>

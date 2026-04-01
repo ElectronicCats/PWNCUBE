@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Pagina web base" />
+        <meta name="author" content="CRESOF" />
+        <title>CRESOF - Página no encontrada</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/CRESOF_ICO.ico')}}" />
+        <link href="./static/css/styles.css" rel="stylesheet" />
+        <script src="{{ url_for('static', filename='js/font-awesome.min.js')}}"></script>
+        <script src="{{ url_for('static', filename='js/feather.js')}}"></script>
+    </head>
+    <body class="nav-fixed">
+        <div id="layoutAuthentication">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div class="container-xl px-4">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-11">
+                                <!-- Social login form-->
+                                <div class="card my-5">
+                                    <div class="card-body p-2 text-center">
+                                        <div class="h3 fw-light mb-3">Licencia de prueba finalizada</div>
+                                    </div>
+                                    <hr class="my-0" />
+                                    <div class="card-body p-5">
+                                        <img src="{{ url_for('static', filename='/assets/img/illustrations/404-error.svg') }}" alt="">
+                                    </div>
+                                    <hr class="my-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div id="layoutAuthentication_footer">
+                {% include 'core/footer.html'   %}
+            </div>
+        </div>
+
+        <script>
+            function changeRemeberState(element){
+                if(element.checked){
+                    element.value = "true"
+                }else{
+                    element.value = "false"
+                }
+            }
+        </script>
+
+        <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js')}}"></script>
+        <script src="./static/js/scripts.js"></script>
+    </body>
+</html>
+
+
+
+

@@ -1,0 +1,101 @@
+<div id="cubesat-viewer"></div>
+
+<script type="importmap">
+  {
+  "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.module.js"
+  }
+  }
+  </script>
+
+<script type="module">
+  import * as THREE from 'three';
+  import { STLLoader } from 'https://cdn.jsdelivr.net/npm/three@0.159.0/examples/jsm/loaders/STLLoader.js';
+
+  let pitch = 0, roll = 0, yaw = 0;
+  let model;
+  let modelCenter = new THREE.Vector3(0, 0, 0);
+
+  const container = document.getElementById("cubesat-viewer");
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color("#181825");
+  const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setSize(width, height);
+  container.appendChild(renderer.domElement);
+
+  const light = new THREE.DirectionalLight(0xffffff, 1);
+  light.position.set(10, 10, 10);
+  scene.add(light);
+  scene.add(new THREE.AmbientLight(0x404040));
+
+  const loader = new STLLoader();
+  loader.load('/static/assets/PwncubeE.stl', function (geometry) {
+    const material = new THREE.MeshPhongMaterial({ color: "#cdd6f4", specular: 0x111111, shininess: 100 });
+    model = new THREE.Mesh(geometry, material);
+    scene.add(model);
+
+    geometry.computeBoundingBox();
+    const box = geometry.boundingBox;
+    const center = box.getCenter(new THREE.Vector3());
+    model.position.sub(center);
+
+    updateCameraPosition();
+    renderer.render(scene, camera);
+  }, undefined, function (error) {
+    console.error('Error loading STL model:', error);
+  });
+
+  window.addEventListener("resize", () => {
+    const w = container.clientWidth;
+    const h = container.clientHeight;
+    renderer.setSize(w, h);
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+
+    updateCameraPosition();
+    renderer.render(scene, camera);
+  });
+
+  function updateCameraPosition() {
+    if (!model) return;
+
+    const offset = new THREE.Vector3(200, 200, 200);
+
+    const rotationMatrix = new THREE.Matrix4();
+    rotationMatrix.makeRotationFromEuler(new THREE.Euler(pitch, roll, yaw, 'XYZ'));
+    const cameraPosition = offset.clone().applyMatrix4(rotationMatrix);
+
+    camera.position.copy(modelCenter).add(cameraPosition);
+    camera.lookAt(modelCenter);
+  }
+
+  window.updateRotation = function (deltaPitch, deltaRoll, deltaYaw) {
+    if (model) {
+      pitch = deltaPitch * Math.PI / 180;
+      roll = deltaRoll * Math.PI / 180;
+      yaw = deltaYaw * Math.PI / 180;
+
+      yaw = yaw % (2 * Math.PI);
+      if (yaw > Math.PI) yaw -= 2 * Math.PI;
+      if (yaw < -Math.PI) yaw += 2 * Math.PI;
+
+      // Apply rotation with ZYX order (aerospace convention)
+      model.rotation.set(0, 0, 0);
+      model.rotation.order = 'ZYX';
+      model.rotation.z = yaw;
+      model.rotation.y = pitch;
+      model.rotation.x = roll;
+
+      updateCameraPosition();
+
+      renderer.render(scene, camera);
+    } else {
+      console.warn('Model not loaded yet');
+    }
+  };
+</script>

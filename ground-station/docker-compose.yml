@@ -1,0 +1,53 @@
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: pwnsat
+      POSTGRES_PASSWORD: passwordpwnsat
+      POSTGRES_DB: pwnsat
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    expose:
+      - 5432:5432
+
+  adminer:
+    image: adminer
+    ports:
+      - 6060:8080
+
+  pwnsatc3:
+    build: ./pwnsatc3
+    container_name: pwnsatc3
+    ports:
+      - 80:80
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_USER=pwnsat
+      - DB_PASSWORD=passwordpwnsat
+      - DB_NAME=pwnsat
+    volumes:
+      - ./pwnsatc3:/app
+    command: python server.py
+
+  connector:
+    build: ./connector
+    container_name: connector
+    ports:
+      - "5005:5005/udp"
+    depends_on:
+      - pwnsatc3
+      - db
+    environment:
+      - FLASK_HOST=pwnsatc3
+      - CONNECTOR_PORT=5005
+      - SENDER_PORT=5006
+    volumes:
+      - ./connector:/app
+    command: python connector.py
+
+volumes:
+  pgdata:

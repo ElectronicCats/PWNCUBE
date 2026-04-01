@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Pagina web base" />
+    <meta name="author" content="PWNSAT" />
+    <title>PWNSAT | C3</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/CRESOF_ICO.ico')}}" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-theme="dark" class="bg-crust" style="overflow-x: hidden;">
+    <div class="bg-stars"></div>
+    <div class="outerspace">
+        <div class="gravity">
+            <div class="satellite"></div>
+            <div class="satellite2"></div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center align-items-center p-2 gap-2 sticky-top">
+        <h5 class="text-center">PWNSAT | Cubesat Command and Control</h5>
+    </div>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    {% for category, message in messages %}
+    <div class="alert alert-{{category}} alert-icon" role="alert">
+        <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        <div class="alert-icon-aside">
+            <i class="far fa-flag"></i>
+        </div>
+        <div class="alert-icon-content">
+            <h6 class="alert-heading">Error</h6>
+            {{ message }}
+        </div>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 offset-md-3 text-center">
+                <img src="{{ url_for('static', filename='assets/img/LogoPwnsat.png' ) }}" alt="LogoPwnsat"
+                    class="img-responsive my-5 w-75">
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-sm-12 col-md-6 offset-md-3 mt-5 bg-mantle">
+                <div class="card-body">
+                    <form action="/login" method="POST" class="row g-3 needs-validation" novalidate>
+                        <label for="password">Local Password:</label>
+                        <input type="password" class="form-control mt-2" name="password" id="password"
+                            placeholder="Password" aria-describedby="password" required>
+                        <div class="invalid-feedback">
+                            This field is required.
+                        </div>
+                        <button type="submit" class="btn btn-login">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'core/footer.html' %}
+    <script src="{{ url_for('static', filename='js/scripts.js' ) }}"></script>
+</body>
+
+</html>

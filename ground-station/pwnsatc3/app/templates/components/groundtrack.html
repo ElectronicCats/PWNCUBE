@@ -1,0 +1,244 @@
+<div class="row g-3">
+  <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
+    <div class="card bg-mantle border-0 h-100">
+      <div class="card-body mb-2 p-2">
+        <h6>Orbit View</h6>
+        <div id="map-groundtracks" class="w-100"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-3 mt-3">
+    <div class="card bg-mantle border-0 h-100">
+      <div class="card-body">
+        <h6>Satellite Position</h6>
+        {% include 'components/cubesat.html' %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-3 mt-3">
+    <div class="card bg-mantle border-0 h-100">
+      <div class="card-body">
+        <h6>Satellite Information</h6>
+        <table class="table table-sm table-borderless text-start table-hover">
+          <tbody id="satellite-orbit">
+          </tbody>
+          <tbody id="satellite-sensors">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
+    <div class="card bg-mantle border-0">
+      <div class="card-body">
+        <h6>Telemetry - Temperature</h6>
+        {% include 'components/temperature.html' %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-4 mt-3">
+    <div class="card bg-mantle border-0">
+      <div class="card-body">
+        <div class="row">
+          <h6>Telemetry - Sensors</h6>
+          {% include 'components/table.html' %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-2 mt-3">
+    <div class="card bg-mantle border-0">
+      <div class="card-body">
+        <h6>Telemetry Events</h6>
+        <ul class="list-group" id="telemetry-events">
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+  let eventCount = 0;
+  let eventList = [];
+  const MAX_EVENTS = 3;
+
+  function createTelemetryEvent(header, time, event, icon) {
+    let html = `<li class="list-group-item event-item">
+            <div class="row d-flex align-items-center">
+              <div class="col-sm-1">
+                <i class="bi bi-${icon} display-6"></i>
+              </div>
+              <div class="col-sm-11">
+                <h6>${header}</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                <p><span class="text-muted"><small>${time}</small></span></p>
+                <span class="badge event-badge">${event}</span>
+                </div>
+              </div>
+            </div>
+          </li>`;
+
+    return html
+  }
+
+  function createSatelliteInfoRow(key, value) {
+    let normalizedKey = key.replace(/_/g, ' ');
+    normalizedKey = normalizedKey.charAt(0).toUpperCase() + normalizedKey.slice(1);
+    let html = ` <tr>
+              <th class="text-capitalize">${normalizedKey}:</th>
+              <td>${value}</td>
+            </tr>`;
+    return html;
+  }
+
+  function updateSatelliteInfo(info, section = "satellite-orbit") {
+    let table = document.getElementById(section);
+    table.innerHTML = "";
+    for (const [key, value] of Object.entries(info)) {
+      table.insertAdjacentHTML('beforeend', createSatelliteInfoRow(key, value));
+    }
+  }
+
+  function addTelemetryEvent(html) {
+    let list = document.getElementById("telemetry-events");
+    eventCount += 1;
+    eventList.push(html);
+    if (eventCount > MAX_EVENTS) {
+      eventList.shift();
+      eventCount -= 1;
+    }
+    list.innerHTML = "";
+    for (let i = 0; i < eventList.length; i++) {
+      list.insertAdjacentHTML('beforeend', eventList[i]);
+    }
+  }
+
+  function getCirclePoints(centerLat, centerLon, radiusKm, numPoints = 360) {
+    const points = { lats: [], lons: [] };
+    const earthRadius = 6371;
+    const angularRadius = (radiusKm / earthRadius) * (180 / Math.PI);
+
+    for (let i = 0; i <= numPoints; i++) {
+      const bearing = (i * 360) / numPoints;
+      const bearingRad = bearing * (Math.PI / 180);
+
+      const latRad = centerLat * (Math.PI / 180);
+      const lonRad = centerLon * (Math.PI / 180);
+
+      const newLatRad = Math.asin(
+        Math.sin(latRad) * Math.cos(angularRadius) +
+        Math.cos(latRad) * Math.sin(angularRadius) * Math.cos(bearingRad)
+      );
+      const newLonRad = lonRad + Math.atan2(
+        Math.sin(bearingRad) * Math.sin(angularRadius) * Math.cos(latRad),
+        Math.cos(angularRadius) - Math.sin(latRad) * Math.sin(newLatRad)
+      );
+
+      points.lats.push(newLatRad * (180 / Math.PI));
+      points.lons.push(newLonRad * (180 / Math.PI));
+    }
+
+    return points;
+  }
+
+  function updateGrountrack(data) {
+    const groundStationLat = data.ground[0];
+    const groundStationLon = data.ground[1];
+    const satLat = data.satnow[0];
+    const satLon = data.satnow[1];
+    const trackLats = data.groundtracks.sat_latitudes;
+    const trackLons = data.groundtracks.sat_longitudes;
+    const radiusKm = 40;
+    const circlePoints = getCirclePoints(satLat, satLon, radiusKm);
+    var data = [
+      {
+        type: "scattergeo",
+        mode: "lines",
+        lon: trackLons,
+        lat: trackLats,
+        line: {
+          width: 1.5,
+          color: "#74c7ec"
+        },
+        name: "Ground Track",
+      },
+      {
+        type: "scattergeo",
+        mode: "markers+text",
+        lon: [satLon],
+        lat: [satLat],
+        marker: {
+          size: 10,
+          color: "#f9e2af"
+        },
+        text: ["Satellite"],
+        textposition: "center right",
+        name: "Satellite"
+      },
+      {
+        type: "scattergeo",
+        mode: "markers+text",
+        lon: [groundStationLon],
+        lat: [groundStationLat],
+        marker: {
+          size: 10,
+          color: "#f2cdcd"
+        },
+        text: ["Ground Station"],
+        textposition: "center left",
+        name: "Ground Station"
+      },
+      {
+        type: "scattergeo",
+        mode: "lines",
+        lon: circlePoints.lons,
+        lat: circlePoints.lats,
+        line: {
+          width: 1,
+          color: "#f38ba8",
+          dash: "dash"
+        },
+        name: "Satellite Visibility Radius"
+      }
+    ];
+    var layout = {
+      margin: { t: 0, b: 0, l: 0, r: 0 },
+      showlegend: false,
+      border: "none",
+      geo: {
+        projection: {
+          type: "azimuth equidistant"
+        },
+        showocean: true,
+        oceancolor: '#1a1d20',
+        showland: true,
+        landcolor: '#4a4e54',
+        countrycolor: '#4a4e54',
+        lakecolor: '#2a2e34',
+        lataxis: { showgrid: false },
+        lonaxis: { showgrid: false },
+        resolution: 80,
+        scope: 'world',
+        fitbounds: 'locations',
+        center: { lat: groundStationLat, lon: groundStationLon },
+
+      },
+      font: {
+        family: 'Arial, monospace',
+        size: 12,
+        color: '#64a7b5'
+      },
+      plot_bgcolor: '#313244',
+      paper_bgcolor: '#313244',
+    };
+
+    Plotly.newPlot('map-groundtracks', data, layout, { responsive: true, displayModeBar: false, scrollZoom: false, dragmode: false });
+  }
+</script>

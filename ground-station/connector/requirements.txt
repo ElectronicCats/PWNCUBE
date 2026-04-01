@@ -1,0 +1,13 @@
+bidict==0.23.1
+certifi==2025.8.3
+charset-normalizer==3.4.3
+h11==0.16.0
+idna==3.10
+netifaces==0.10.6
+python-engineio==4.12.2
+python-socketio==5.13.0
+requests==2.32.5
+setuptools==3.3
+simple-websocket==1.1.0
+urllib3==2.5.0
+wsproto==1.2.0

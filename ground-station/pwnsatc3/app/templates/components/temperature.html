@@ -1,0 +1,61 @@
+<div id="telemetry-temp-history" class="w-100"></div>
+
+<script>
+  let secsTime = 0;
+  var traceBME = {
+    x: [],
+    y: [],
+    mode: 'lines+markers',
+    name: 'BME Temperature (°C)',
+    line: { color: '#f9e2af', width: 2 },
+    marker: { size: 6 }
+  };
+
+  var traceMPU = {
+    x: [],
+    y: [],
+    mode: 'lines+markers',
+    name: 'MPU Temperature (°C)',
+    line: { color: '#74c7ec', width: 2 },
+    marker: { size: 6 }
+  };
+
+  function updateHistoryTemperature(data) {
+    if (secsTime > 10) {
+      traceBME.x.shift();
+      traceBME.y.shift();
+      traceMPU.x.shift();
+      traceMPU.y.shift();
+    }
+    traceBME.x.push(secsTime);
+    traceBME.y.push(data.bme);
+    traceMPU.x.push(secsTime);
+    traceMPU.y.push(data.mpu);
+
+    var data = [traceBME, traceMPU];
+
+    var layout = {
+      margin: { t: 0, b: 0, l: 0, r: 0 },
+      border: "none",
+      xaxis: {
+        type: 'log',
+        autorange: true
+      },
+      yaxis: {
+        type: 'log',
+        autorange: true
+      },
+      font: {
+        family: 'Arial, monospace',
+        size: 12,
+        color: '#cdd6f4'
+      },
+      plot_bgcolor: '#181825',
+      paper_bgcolor: '#181825',
+    };
+
+    Plotly.newPlot('telemetry-temp-history', data, layout, { responsive: true, displayModeBar: false, scrollZoom: false, dragmode: false });
+    secsTime += 1;
+  }
+
+</script>

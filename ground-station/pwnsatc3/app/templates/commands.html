@@ -1,0 +1,120 @@
+{% extends 'core/base.html' %}
+{% set active_page = 'commands' %}
+{% block title %}Command Sender{% endblock %}
+
+{% block content %}
+
+<div class="container-fluid gap-2 p-5">
+  <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+    <div class="card bg-mantle border-0 h-100">
+      <div class="card-body">
+        <h6>Telecommand Sender</h6>
+        <div class="row">
+          <div class="d-flex justify-content-between gap-2">
+            <select class="form-select" aria-label="TC Selector" id="tc-selector">
+              <option selected>Open this select menu</option>
+            </select>
+            <button type="button" class="btn btn-login" onclick="onSendCommand()">Send</button>
+          </div>
+        </div>
+        <div class="row g-3 p-2 mt-3">
+          <div class="row" id="inputs-commands">
+          </div>
+        </div>
+        <div class="row g-3 p-2 mt-3">
+          <table class="table table-borderless table-hover table-sm table-striped">
+            <tbody id="table-command">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/socket_io.js' ) }}"></script>
+<script>
+  const socket = io.connect('http://' + document.domain + ':' + location.port);
+
+  let tc_selector = document.getElementById("tc-selector");
+  let tc_json = {{ context['tc'] | tojson }};
+
+  let commandJson = {};
+
+  socket.on('connect', function () {
+  });
+  let room = "tm"
+
+  socket.emit('join', { 'room': room });
+
+  socket.on('disconnect', function () {
+
+  });
+
+  socket.on('tm', function (data) {
+
+  });
+
+  socket.on('tc', function (data) {
+
+  });
+
+  socket.on('img', function (data) {
+
+  });
+
+  socket.on('test', function (data) {
+    console.log(data);
+  });
+
+  function onSendCommand() {
+    console.log("Sending command");
+    if (document.getElementById(`input_${commandJson["name"]}`)){
+      commandJson["param"] = document.getElementById(`input_${commandJson["name"]}`).value;
+    }
+    console.log(commandJson)
+    socket.emit("send_tc", commandJson);
+  }
+
+  tc_selector.onchange = function () {
+    commandJson = {};
+    let command = tc_json["COMMANDS"][tc_selector.value];
+    updateCommandInformation(command);
+  }
+
+  function updateCommandInformation(info) {
+    let table = document.getElementById("table-command");
+    let inputs = document.getElementById("inputs-commands");
+    table.innerHTML = "";
+    inputs.innerHTML = "";
+    for (const [key, value] of Object.entries(info)) {
+      if (key === "parameters") {
+        let params = info["parameters"];
+        console.log(params)
+        params.forEach((param) => {
+          if (param["type"] === "APPEND_PARAMETER") {
+            inputs.insertAdjacentHTML('beforeend', createInputParameter(param, info["name"]));
+          }
+          if (param["type"] === "ID_PARAMETER") {
+            commandJson["name"] = info["name"];
+            commandJson["value"] = param["value"];
+          }
+        })
+      } else {
+        table.insertAdjacentHTML('beforeend', createKeyValueRow(key, value));
+      }
+    }
+  }
+
+  window.onload = function () {
+    let commands = tc_json["COMMANDS"];
+    let keys = Object.keys(commands);
+    keys.forEach((key) => {
+      let option = document.createElement("option");
+      option.value = key;
+      option.text = key;
+      tc_selector.appendChild(option);
+    });
+  }
+</script>
+{% endblock %}

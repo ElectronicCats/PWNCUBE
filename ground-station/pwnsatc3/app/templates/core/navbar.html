@@ -1,0 +1,30 @@
+<nav class="navbar fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PWNSATC3</a>
+    <h6 id="timeNavbar"></h6>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start  bg-crust" tabindex="-1" id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PWNSATC3</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link {{ 'active text-info-emphasis fw-bold' if active_page=='home' else ''}}"
+              aria-current="page" href="{{ url_for('auth.dashboard')}}">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {{ 'active text-info-emphasis fw-bold' if active_page=='commands' else ''}}"
+              href="{{ url_for('auth.command_view')}}">Command Sender</a>
+          </li>
+          <li><a class="dropdown-item" href="{{ url_for('auth.logout')}}">Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
