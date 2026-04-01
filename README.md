@@ -1,4 +1,4 @@
-# PwnSat 2.0: The Vulnerable Satellite Hacking Platform for Learning Through Research
+# PWNCUBE - The Vulnerable Satellite Hacking Platform for Learning Through Research
 
 PwnSat is the first open-source, vulnerable-by-design aerospace cybersecurity platform. It bridges the gap between traditional IT security and specialized Space Mission Operations (SMO). Developed over six years of research, PwnSat 2.0 scales from a basic FlatSat to a high-fidelity enterprise environment, designed specifically for advanced offensive and defensive research.
 
